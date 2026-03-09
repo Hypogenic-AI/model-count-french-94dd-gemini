@@ -1,0 +1,7 @@
+PDF: papers/2009.04361_Johnson_2020_Probing_Multilingual_Numerical.pdf
+Total pages: 6
+Pages per chunk: 3
+
+Chunks:
+  2009.04361_Johnson_2020_Probing_Multilingual_Numerical_chunk_001.pdf: pages 1-3
+  2009.04361_Johnson_2020_Probing_Multilingual_Numerical_chunk_002.pdf: pages 4-6

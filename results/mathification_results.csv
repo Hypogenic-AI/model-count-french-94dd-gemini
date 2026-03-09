@@ -1,0 +1,91 @@
+model,number,text,math_expr,pred_base,correct_base,pred_math,correct_math
+gpt-4o,70,soixante-dix,60 + 10,70,True,70,True
+gpt-4o,71,soixante et onze,60 + 11,71,True,71,True
+gpt-4o,72,soixante-douze,60 + 12,72,True,72,True
+gpt-4o,73,soixante-treize,60 + 13,73,True,73,True
+gpt-4o,74,soixante-quatorze,60 + 14,74,True,74,True
+gpt-4o,75,soixante-quinze,60 + 15,75,True,75,True
+gpt-4o,76,soixante-seize,60 + 16,76,True,76,True
+gpt-4o,77,soixante-dix-sept,60 + 17,77,True,77,True
+gpt-4o,78,soixante-dix-huit,60 + 18,78,True,78,True
+gpt-4o,79,soixante-dix-neuf,60 + 19,79,True,79,True
+gpt-4o,80,quatre-vingts,4 * 20 + 0,80,True,80,True
+gpt-4o,81,quatre-vingt-un,4 * 20 + 1,81,True,81,True
+gpt-4o,82,quatre-vingt-deux,4 * 20 + 2,82,True,82,True
+gpt-4o,83,quatre-vingt-trois,4 * 20 + 3,83,True,83,True
+gpt-4o,84,quatre-vingt-quatre,4 * 20 + 4,84,True,84,True
+gpt-4o,85,quatre-vingt-cinq,4 * 20 + 5,85,True,85,True
+gpt-4o,86,quatre-vingt-six,4 * 20 + 6,86,True,86,True
+gpt-4o,87,quatre-vingt-sept,4 * 20 + 7,87,True,87,True
+gpt-4o,88,quatre-vingt-huit,4 * 20 + 8,88,True,88,True
+gpt-4o,89,quatre-vingt-neuf,4 * 20 + 9,89,True,89,True
+gpt-4o,90,quatre-vingt-dix,4 * 20 + 10,90,True,90,True
+gpt-4o,91,quatre-vingt-onze,4 * 20 + 11,91,True,91,True
+gpt-4o,92,quatre-vingt-douze,4 * 20 + 12,92,True,92,True
+gpt-4o,93,quatre-vingt-treize,4 * 20 + 13,93,True,93,True
+gpt-4o,94,quatre-vingt-quatorze,4 * 20 + 14,94,True,94,True
+gpt-4o,95,quatre-vingt-quinze,4 * 20 + 15,95,True,95,True
+gpt-4o,96,quatre-vingt-seize,4 * 20 + 16,96,True,96,True
+gpt-4o,97,quatre-vingt-dix-sept,4 * 20 + 17,97,True,97,True
+gpt-4o,98,quatre-vingt-dix-huit,4 * 20 + 18,98,True,98,True
+gpt-4o,99,quatre-vingt-dix-neuf,4 * 20 + 19,99,True,99,True
+claude-3.5-sonnet,70,soixante-dix,60 + 10,70,True,70,True
+claude-3.5-sonnet,71,soixante et onze,60 + 11,71,True,71,True
+claude-3.5-sonnet,72,soixante-douze,60 + 12,72,True,72,True
+claude-3.5-sonnet,73,soixante-treize,60 + 13,73,True,73,True
+claude-3.5-sonnet,74,soixante-quatorze,60 + 14,74,True,74,True
+claude-3.5-sonnet,75,soixante-quinze,60 + 15,75,True,60,False
+claude-3.5-sonnet,76,soixante-seize,60 + 16,76,True,60,False
+claude-3.5-sonnet,77,soixante-dix-sept,60 + 17,77,True,60,False
+claude-3.5-sonnet,78,soixante-dix-huit,60 + 18,78,True,60,False
+claude-3.5-sonnet,79,soixante-dix-neuf,60 + 19,79,True,79,True
+claude-3.5-sonnet,80,quatre-vingts,4 * 20 + 0,80,True,80,True
+claude-3.5-sonnet,81,quatre-vingt-un,4 * 20 + 1,81,True,81,True
+claude-3.5-sonnet,82,quatre-vingt-deux,4 * 20 + 2,82,True,82,True
+claude-3.5-sonnet,83,quatre-vingt-trois,4 * 20 + 3,83,True,83,True
+claude-3.5-sonnet,84,quatre-vingt-quatre,4 * 20 + 4,84,True,84,True
+claude-3.5-sonnet,85,quatre-vingt-cinq,4 * 20 + 5,85,True,85,True
+claude-3.5-sonnet,86,quatre-vingt-six,4 * 20 + 6,86,True,86,True
+claude-3.5-sonnet,87,quatre-vingt-sept,4 * 20 + 7,87,True,87,True
+claude-3.5-sonnet,88,quatre-vingt-huit,4 * 20 + 8,88,True,88,True
+claude-3.5-sonnet,89,quatre-vingt-neuf,4 * 20 + 9,89,True,89,True
+claude-3.5-sonnet,90,quatre-vingt-dix,4 * 20 + 10,90,True,90,True
+claude-3.5-sonnet,91,quatre-vingt-onze,4 * 20 + 11,91,True,91,True
+claude-3.5-sonnet,92,quatre-vingt-douze,4 * 20 + 12,92,True,4,False
+claude-3.5-sonnet,93,quatre-vingt-treize,4 * 20 + 13,93,True,93,True
+claude-3.5-sonnet,94,quatre-vingt-quatorze,4 * 20 + 14,94,True,4,False
+claude-3.5-sonnet,95,quatre-vingt-quinze,4 * 20 + 15,95,True,95,True
+claude-3.5-sonnet,96,quatre-vingt-seize,4 * 20 + 16,96,True,96,True
+claude-3.5-sonnet,97,quatre-vingt-dix-sept,4 * 20 + 17,97,True,4,False
+claude-3.5-sonnet,98,quatre-vingt-dix-huit,4 * 20 + 18,98,True,4,False
+claude-3.5-sonnet,99,quatre-vingt-dix-neuf,4 * 20 + 19,99,True,4,False
+llama-3.1-70b,70,soixante-dix,60 + 10,70,True,70,True
+llama-3.1-70b,71,soixante et onze,60 + 11,71,True,71,True
+llama-3.1-70b,72,soixante-douze,60 + 12,72,True,72,True
+llama-3.1-70b,73,soixante-treize,60 + 13,73,True,73,True
+llama-3.1-70b,74,soixante-quatorze,60 + 14,74,True,74,True
+llama-3.1-70b,75,soixante-quinze,60 + 15,75,True,75,True
+llama-3.1-70b,76,soixante-seize,60 + 16,76,True,76,True
+llama-3.1-70b,77,soixante-dix-sept,60 + 17,77,True,77,True
+llama-3.1-70b,78,soixante-dix-huit,60 + 18,78,True,78,True
+llama-3.1-70b,79,soixante-dix-neuf,60 + 19,79,True,79,True
+llama-3.1-70b,80,quatre-vingts,4 * 20 + 0,80,True,80,True
+llama-3.1-70b,81,quatre-vingt-un,4 * 20 + 1,81,True,81,True
+llama-3.1-70b,82,quatre-vingt-deux,4 * 20 + 2,82,True,82,True
+llama-3.1-70b,83,quatre-vingt-trois,4 * 20 + 3,83,True,1,False
+llama-3.1-70b,84,quatre-vingt-quatre,4 * 20 + 4,84,True,1,False
+llama-3.1-70b,85,quatre-vingt-cinq,4 * 20 + 5,85,True,1,False
+llama-3.1-70b,86,quatre-vingt-six,4 * 20 + 6,86,True,1,False
+llama-3.1-70b,87,quatre-vingt-sept,4 * 20 + 7,87,True,1,False
+llama-3.1-70b,88,quatre-vingt-huit,4 * 20 + 8,88,True,1,False
+llama-3.1-70b,89,quatre-vingt-neuf,4 * 20 + 9,89,True,1,False
+llama-3.1-70b,90,quatre-vingt-dix,4 * 20 + 10,90,True,90,True
+llama-3.1-70b,91,quatre-vingt-onze,4 * 20 + 11,91,True,91,True
+llama-3.1-70b,92,quatre-vingt-douze,4 * 20 + 12,92,True,1,False
+llama-3.1-70b,93,quatre-vingt-treize,4 * 20 + 13,93,True,1,False
+llama-3.1-70b,94,quatre-vingt-quatorze,4 * 20 + 14,94,True,1,False
+llama-3.1-70b,95,quatre-vingt-quinze,4 * 20 + 15,95,True,1,False
+llama-3.1-70b,96,quatre-vingt-seize,4 * 20 + 16,96,True,1,False
+llama-3.1-70b,97,quatre-vingt-dix-sept,4 * 20 + 17,97,True,1,False
+llama-3.1-70b,98,quatre-vingt-dix-huit,4 * 20 + 18,98,True,98,True
+llama-3.1-70b,99,quatre-vingt-dix-neuf,4 * 20 + 19,99,True,1,False

@@ -1,0 +1,10 @@
+\section{Related Work}
+
+\para{Numerical Understanding in Language Models.}
+The ability of transformer-based models to understand and manipulate numbers has been extensively studied. Early probing studies evaluated how frozen contextual embeddings represent numerical magnitude. \citet{johnson2020probing} introduced tasks for grammaticality judgment and value comparison across several languages, explicitly identifying French as problematic due to its complex vigesimal structure. They found that while models could judge grammaticality, they struggled significantly with magnitude comparison. Building on this, we show that while modern models have advanced past basic decoding errors, their cross-system magnitude comparison still suffers. 
+
+\para{Linguistic Structure and Mathematical Reasoning.}
+Recent work explores how the surface-level linguistic structure of a puzzle impacts a model's ability to solve it. \citet{bhattacharya2025investigating} analyzed how LLMs handle multilingual number puzzles, revealing that models often fail to infer implicit mathematical operations---such as the multiplication inherent in vigesimal systems (e.g., \textit{quatre-vingts} = 4 $\times$ 20). They demonstrated that ``mathifying'' these puzzles by making the operations explicit drastically improves performance. Unlike their work, which focuses on solving external puzzles, we focus on the internal alignment between different dialects of the same language, directly measuring the representational gap between vigesimal and decimal forms.
+
+\para{Tokenization and Opacity.}
+The fragmentation of words by subword tokenizers is a known source of reasoning errors in language models. Opaque systems, where the morphological structure does not directly map to the semantic meaning in a regular way, exacerbate this issue. Our tokenization analysis provides a mechanistic explanation for the ``vigesimal tax,'' quantifying how the structural complexity of \standardfrench leads to higher token counts and subsequent reasoning failures compared to the transparent \swissfrench system.

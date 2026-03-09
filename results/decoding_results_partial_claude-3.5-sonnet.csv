@@ -1,0 +1,241 @@
+model,number,system,text,prediction,is_correct,is_vigesimal
+gpt-4o,70,standard,soixante-dix,70,True,True
+gpt-4o,70,swiss,septante,70,True,True
+gpt-4o,71,standard,soixante et onze,71,True,True
+gpt-4o,71,swiss,septante et un,71,True,True
+gpt-4o,72,standard,soixante-douze,72,True,True
+gpt-4o,72,swiss,septante-deux,72,True,True
+gpt-4o,73,standard,soixante-treize,73,True,True
+gpt-4o,73,swiss,septante-trois,73,True,True
+gpt-4o,74,standard,soixante-quatorze,74,True,True
+gpt-4o,74,swiss,septante-quatre,74,True,True
+gpt-4o,75,standard,soixante-quinze,75,True,True
+gpt-4o,75,swiss,septante-cinq,75,True,True
+gpt-4o,76,standard,soixante-seize,76,True,True
+gpt-4o,76,swiss,septante-six,76,True,True
+gpt-4o,77,standard,soixante-dix-sept,77,True,True
+gpt-4o,77,swiss,septante-sept,77,True,True
+gpt-4o,78,standard,soixante-dix-huit,78,True,True
+gpt-4o,78,swiss,septante-huit,78,True,True
+gpt-4o,79,standard,soixante-dix-neuf,79,True,True
+gpt-4o,79,swiss,septante-neuf,79,True,True
+gpt-4o,80,standard,quatre-vingts,80,True,True
+gpt-4o,80,swiss,huitante,80,True,True
+gpt-4o,81,standard,quatre-vingt-un,81,True,True
+gpt-4o,81,swiss,huitante et un,81,True,True
+gpt-4o,82,standard,quatre-vingt-deux,82,True,True
+gpt-4o,82,swiss,huitante-deux,82,True,True
+gpt-4o,83,standard,quatre-vingt-trois,83,True,True
+gpt-4o,83,swiss,huitante-trois,83,True,True
+gpt-4o,84,standard,quatre-vingt-quatre,84,True,True
+gpt-4o,84,swiss,huitante-quatre,84,True,True
+gpt-4o,85,standard,quatre-vingt-cinq,85,True,True
+gpt-4o,85,swiss,huitante-cinq,85,True,True
+gpt-4o,86,standard,quatre-vingt-six,86,True,True
+gpt-4o,86,swiss,huitante-six,86,True,True
+gpt-4o,87,standard,quatre-vingt-sept,87,True,True
+gpt-4o,87,swiss,huitante-sept,87,True,True
+gpt-4o,88,standard,quatre-vingt-huit,88,True,True
+gpt-4o,88,swiss,huitante-huit,88,True,True
+gpt-4o,89,standard,quatre-vingt-neuf,89,True,True
+gpt-4o,89,swiss,huitante-neuf,89,True,True
+gpt-4o,90,standard,quatre-vingt-dix,90,True,True
+gpt-4o,90,swiss,nonante,90,True,True
+gpt-4o,91,standard,quatre-vingt-onze,91,True,True
+gpt-4o,91,swiss,nonante et un,91,True,True
+gpt-4o,92,standard,quatre-vingt-douze,92,True,True
+gpt-4o,92,swiss,nonante-deux,92,True,True
+gpt-4o,93,standard,quatre-vingt-treize,93,True,True
+gpt-4o,93,swiss,nonante-trois,93,True,True
+gpt-4o,94,standard,quatre-vingt-quatorze,94,True,True
+gpt-4o,94,swiss,nonante-quatre,94,True,True
+gpt-4o,95,standard,quatre-vingt-quinze,95,True,True
+gpt-4o,95,swiss,nonante-cinq,95,True,True
+gpt-4o,96,standard,quatre-vingt-seize,96,True,True
+gpt-4o,96,swiss,nonante-six,96,True,True
+gpt-4o,97,standard,quatre-vingt-dix-sept,97,True,True
+gpt-4o,97,swiss,nonante-sept,97,True,True
+gpt-4o,98,standard,quatre-vingt-dix-huit,98,True,True
+gpt-4o,98,swiss,nonante-huit,98,True,True
+gpt-4o,99,standard,quatre-vingt-dix-neuf,99,True,True
+gpt-4o,99,swiss,nonante-neuf,99,True,True
+gpt-4o,606,standard,six cent six,606,True,False
+gpt-4o,606,swiss,six cents six,606,True,False
+gpt-4o,290,standard,deux cent quatre-vingt-dix,290,True,False
+gpt-4o,290,swiss,deux cents nonante,290,True,False
+gpt-4o,419,standard,quatre cent dix-neuf,419,True,False
+gpt-4o,419,swiss,quatre cents dix-neuf,419,True,False
+gpt-4o,526,standard,cinq cent vingt-six,526,True,False
+gpt-4o,526,swiss,cinq cents vingt-six,526,True,False
+gpt-4o,101,standard,cent un,101,True,False
+gpt-4o,101,swiss,cent un,101,True,False
+gpt-4o,937,standard,neuf cent trente-sept,937,True,False
+gpt-4o,937,swiss,neuf cents trente-sept,937,True,False
+gpt-4o,816,standard,huit cent seize,816,True,False
+gpt-4o,816,swiss,huit cents seize,816,True,False
+gpt-4o,516,standard,cinq cent seize,516,True,False
+gpt-4o,516,swiss,cinq cents seize,516,True,False
+gpt-4o,119,standard,cent dix-neuf,119,True,False
+gpt-4o,119,swiss,cent dix-neuf,119,True,False
+gpt-4o,579,standard,cinq cent soixante-dix-neuf,579,True,False
+gpt-4o,579,swiss,cinq cents septante-neuf,579,True,False
+gpt-4o,107,standard,cent sept,107,True,False
+gpt-4o,107,swiss,cent sept,107,True,False
+gpt-4o,987,standard,neuf cent quatre-vingt-sept,987,True,False
+gpt-4o,987,swiss,neuf cents huitante-sept,987,True,False
+gpt-4o,484,standard,quatre cent quatre-vingt-quatre,484,True,False
+gpt-4o,484,swiss,quatre cents huitante-quatre,484,True,False
+gpt-4o,688,standard,six cent quatre-vingt-huit,688,True,False
+gpt-4o,688,swiss,six cents huitante-huit,688,True,False
+gpt-4o,561,standard,cinq cent soixante et un,561,True,False
+gpt-4o,561,swiss,cinq cents soixante et un,561,True,False
+gpt-4o,375,standard,trois cent soixante-quinze,375,True,False
+gpt-4o,375,swiss,trois cents septante-cinq,375,True,False
+gpt-4o,31,standard,trente et un,31,True,False
+gpt-4o,31,swiss,trente et un,31,True,False
+gpt-4o,68,standard,soixante-huit,68,True,False
+gpt-4o,68,swiss,soixante-huit,68,True,False
+gpt-4o,601,standard,six cent un,601,True,False
+gpt-4o,601,swiss,six cents un,601,True,False
+gpt-4o,834,standard,huit cent trente-quatre,834,True,False
+gpt-4o,834,swiss,huit cents trente-quatre,834,True,False
+gpt-4o,940,standard,neuf cent quarante,940,True,False
+gpt-4o,940,swiss,neuf cents quarante,940,True,False
+gpt-4o,317,standard,trois cent dix-sept,317,True,False
+gpt-4o,317,swiss,trois cents dix-sept,317,True,False
+gpt-4o,381,standard,trois cent quatre-vingt-un,381,True,False
+gpt-4o,381,swiss,trois cents huitante et un,381,True,False
+gpt-4o,815,standard,huit cent quinze,815,True,False
+gpt-4o,815,swiss,huit cents quinze,815,True,False
+gpt-4o,632,standard,six cent trente-deux,632,True,False
+gpt-4o,632,swiss,six cents trente-deux,632,True,False
+gpt-4o,24,standard,vingt-quatre,24,True,False
+gpt-4o,24,swiss,vingt-quatre,24,True,False
+gpt-4o,925,standard,neuf cent vingt-cinq,925,True,False
+gpt-4o,925,swiss,neuf cents vingt-cinq,925,True,False
+gpt-4o,525,standard,cinq cent vingt-cinq,525,True,False
+gpt-4o,525,swiss,cinq cents vingt-cinq,525,True,False
+gpt-4o,958,standard,neuf cent cinquante-huit,958,True,False
+gpt-4o,958,swiss,neuf cents cinquante-huit,958,True,False
+gpt-4o,488,standard,quatre cent quatre-vingt-huit,488,True,False
+gpt-4o,488,swiss,quatre cents huitante-huit,488,True,False
+claude-3.5-sonnet,70,standard,soixante-dix,70,True,True
+claude-3.5-sonnet,70,swiss,septante,70,True,True
+claude-3.5-sonnet,71,standard,soixante et onze,71,True,True
+claude-3.5-sonnet,71,swiss,septante et un,71,True,True
+claude-3.5-sonnet,72,standard,soixante-douze,72,True,True
+claude-3.5-sonnet,72,swiss,septante-deux,72,True,True
+claude-3.5-sonnet,73,standard,soixante-treize,73,True,True
+claude-3.5-sonnet,73,swiss,septante-trois,73,True,True
+claude-3.5-sonnet,74,standard,soixante-quatorze,74,True,True
+claude-3.5-sonnet,74,swiss,septante-quatre,74,True,True
+claude-3.5-sonnet,75,standard,soixante-quinze,75,True,True
+claude-3.5-sonnet,75,swiss,septante-cinq,75,True,True
+claude-3.5-sonnet,76,standard,soixante-seize,76,True,True
+claude-3.5-sonnet,76,swiss,septante-six,76,True,True
+claude-3.5-sonnet,77,standard,soixante-dix-sept,77,True,True
+claude-3.5-sonnet,77,swiss,septante-sept,77,True,True
+claude-3.5-sonnet,78,standard,soixante-dix-huit,78,True,True
+claude-3.5-sonnet,78,swiss,septante-huit,78,True,True
+claude-3.5-sonnet,79,standard,soixante-dix-neuf,79,True,True
+claude-3.5-sonnet,79,swiss,septante-neuf,79,True,True
+claude-3.5-sonnet,80,standard,quatre-vingts,80,True,True
+claude-3.5-sonnet,80,swiss,huitante,80,True,True
+claude-3.5-sonnet,81,standard,quatre-vingt-un,81,True,True
+claude-3.5-sonnet,81,swiss,huitante et un,81,True,True
+claude-3.5-sonnet,82,standard,quatre-vingt-deux,82,True,True
+claude-3.5-sonnet,82,swiss,huitante-deux,82,True,True
+claude-3.5-sonnet,83,standard,quatre-vingt-trois,83,True,True
+claude-3.5-sonnet,83,swiss,huitante-trois,83,True,True
+claude-3.5-sonnet,84,standard,quatre-vingt-quatre,84,True,True
+claude-3.5-sonnet,84,swiss,huitante-quatre,84,True,True
+claude-3.5-sonnet,85,standard,quatre-vingt-cinq,85,True,True
+claude-3.5-sonnet,85,swiss,huitante-cinq,85,True,True
+claude-3.5-sonnet,86,standard,quatre-vingt-six,86,True,True
+claude-3.5-sonnet,86,swiss,huitante-six,86,True,True
+claude-3.5-sonnet,87,standard,quatre-vingt-sept,87,True,True
+claude-3.5-sonnet,87,swiss,huitante-sept,87,True,True
+claude-3.5-sonnet,88,standard,quatre-vingt-huit,88,True,True
+claude-3.5-sonnet,88,swiss,huitante-huit,88,True,True
+claude-3.5-sonnet,89,standard,quatre-vingt-neuf,89,True,True
+claude-3.5-sonnet,89,swiss,huitante-neuf,89,True,True
+claude-3.5-sonnet,90,standard,quatre-vingt-dix,90,True,True
+claude-3.5-sonnet,90,swiss,nonante,90,True,True
+claude-3.5-sonnet,91,standard,quatre-vingt-onze,91,True,True
+claude-3.5-sonnet,91,swiss,nonante et un,91,True,True
+claude-3.5-sonnet,92,standard,quatre-vingt-douze,92,True,True
+claude-3.5-sonnet,92,swiss,nonante-deux,92,True,True
+claude-3.5-sonnet,93,standard,quatre-vingt-treize,93,True,True
+claude-3.5-sonnet,93,swiss,nonante-trois,93,True,True
+claude-3.5-sonnet,94,standard,quatre-vingt-quatorze,94,True,True
+claude-3.5-sonnet,94,swiss,nonante-quatre,94,True,True
+claude-3.5-sonnet,95,standard,quatre-vingt-quinze,95,True,True
+claude-3.5-sonnet,95,swiss,nonante-cinq,95,True,True
+claude-3.5-sonnet,96,standard,quatre-vingt-seize,96,True,True
+claude-3.5-sonnet,96,swiss,nonante-six,96,True,True
+claude-3.5-sonnet,97,standard,quatre-vingt-dix-sept,97,True,True
+claude-3.5-sonnet,97,swiss,nonante-sept,97,True,True
+claude-3.5-sonnet,98,standard,quatre-vingt-dix-huit,98,True,True
+claude-3.5-sonnet,98,swiss,nonante-huit,98,True,True
+claude-3.5-sonnet,99,standard,quatre-vingt-dix-neuf,99,True,True
+claude-3.5-sonnet,99,swiss,nonante-neuf,99,True,True
+claude-3.5-sonnet,606,standard,six cent six,606,True,False
+claude-3.5-sonnet,606,swiss,six cents six,606,True,False
+claude-3.5-sonnet,290,standard,deux cent quatre-vingt-dix,290,True,False
+claude-3.5-sonnet,290,swiss,deux cents nonante,290,True,False
+claude-3.5-sonnet,419,standard,quatre cent dix-neuf,419,True,False
+claude-3.5-sonnet,419,swiss,quatre cents dix-neuf,419,True,False
+claude-3.5-sonnet,526,standard,cinq cent vingt-six,526,True,False
+claude-3.5-sonnet,526,swiss,cinq cents vingt-six,526,True,False
+claude-3.5-sonnet,101,standard,cent un,101,True,False
+claude-3.5-sonnet,101,swiss,cent un,101,True,False
+claude-3.5-sonnet,937,standard,neuf cent trente-sept,937,True,False
+claude-3.5-sonnet,937,swiss,neuf cents trente-sept,937,True,False
+claude-3.5-sonnet,816,standard,huit cent seize,816,True,False
+claude-3.5-sonnet,816,swiss,huit cents seize,816,True,False
+claude-3.5-sonnet,516,standard,cinq cent seize,516,True,False
+claude-3.5-sonnet,516,swiss,cinq cents seize,516,True,False
+claude-3.5-sonnet,119,standard,cent dix-neuf,119,True,False
+claude-3.5-sonnet,119,swiss,cent dix-neuf,119,True,False
+claude-3.5-sonnet,579,standard,cinq cent soixante-dix-neuf,579,True,False
+claude-3.5-sonnet,579,swiss,cinq cents septante-neuf,579,True,False
+claude-3.5-sonnet,107,standard,cent sept,107,True,False
+claude-3.5-sonnet,107,swiss,cent sept,107,True,False
+claude-3.5-sonnet,987,standard,neuf cent quatre-vingt-sept,987,True,False
+claude-3.5-sonnet,987,swiss,neuf cents huitante-sept,987,True,False
+claude-3.5-sonnet,484,standard,quatre cent quatre-vingt-quatre,484,True,False
+claude-3.5-sonnet,484,swiss,quatre cents huitante-quatre,484,True,False
+claude-3.5-sonnet,688,standard,six cent quatre-vingt-huit,688,True,False
+claude-3.5-sonnet,688,swiss,six cents huitante-huit,688,True,False
+claude-3.5-sonnet,561,standard,cinq cent soixante et un,561,True,False
+claude-3.5-sonnet,561,swiss,cinq cents soixante et un,561,True,False
+claude-3.5-sonnet,375,standard,trois cent soixante-quinze,375,True,False
+claude-3.5-sonnet,375,swiss,trois cents septante-cinq,375,True,False
+claude-3.5-sonnet,31,standard,trente et un,31,True,False
+claude-3.5-sonnet,31,swiss,trente et un,31,True,False
+claude-3.5-sonnet,68,standard,soixante-huit,68,True,False
+claude-3.5-sonnet,68,swiss,soixante-huit,68,True,False
+claude-3.5-sonnet,601,standard,six cent un,601,True,False
+claude-3.5-sonnet,601,swiss,six cents un,601,True,False
+claude-3.5-sonnet,834,standard,huit cent trente-quatre,834,True,False
+claude-3.5-sonnet,834,swiss,huit cents trente-quatre,834,True,False
+claude-3.5-sonnet,940,standard,neuf cent quarante,940,True,False
+claude-3.5-sonnet,940,swiss,neuf cents quarante,940,True,False
+claude-3.5-sonnet,317,standard,trois cent dix-sept,317,True,False
+claude-3.5-sonnet,317,swiss,trois cents dix-sept,317,True,False
+claude-3.5-sonnet,381,standard,trois cent quatre-vingt-un,381,True,False
+claude-3.5-sonnet,381,swiss,trois cents huitante et un,381,True,False
+claude-3.5-sonnet,815,standard,huit cent quinze,815,True,False
+claude-3.5-sonnet,815,swiss,huit cents quinze,815,True,False
+claude-3.5-sonnet,632,standard,six cent trente-deux,632,True,False
+claude-3.5-sonnet,632,swiss,six cents trente-deux,632,True,False
+claude-3.5-sonnet,24,standard,vingt-quatre,24,True,False
+claude-3.5-sonnet,24,swiss,vingt-quatre,24,True,False
+claude-3.5-sonnet,925,standard,neuf cent vingt-cinq,925,True,False
+claude-3.5-sonnet,925,swiss,neuf cents vingt-cinq,925,True,False
+claude-3.5-sonnet,525,standard,cinq cent vingt-cinq,525,True,False
+claude-3.5-sonnet,525,swiss,cinq cents vingt-cinq,525,True,False
+claude-3.5-sonnet,958,standard,neuf cent cinquante-huit,958,True,False
+claude-3.5-sonnet,958,swiss,neuf cents cinquante-huit,958,True,False
+claude-3.5-sonnet,488,standard,quatre cent quatre-vingt-huit,488,True,False
+claude-3.5-sonnet,488,swiss,quatre cents huitante-huit,488,True,False

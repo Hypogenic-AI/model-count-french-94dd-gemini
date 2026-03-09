@@ -1,0 +1,1001 @@
+number,fr_standard,fr_swiss,fr_belgian,is_vigesimal_std,structure_std,tokens_std_gpt-4o (o200k_base),tokens_swiss_gpt-4o (o200k_base),token_diff_gpt-4o (o200k_base),tokens_std_gpt-4/3.5 (cl100k_base),tokens_swiss_gpt-4/3.5 (cl100k_base),token_diff_gpt-4/3.5 (cl100k_base),tokens_std_gpt-3 (p50k_base),tokens_swiss_gpt-3 (p50k_base),token_diff_gpt-3 (p50k_base),tokens_std_llama-3,tokens_swiss_llama-3,token_diff_llama-3,tokens_std_mistral,tokens_swiss_mistral,token_diff_mistral
+1,un,un,un,False,decimal,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0
+2,deux,deux,deux,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,1,1,0
+3,trois,trois,trois,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,1,1,0
+4,quatre,quatre,quatre,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,1,1,0
+5,cinq,cinq,cinq,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,1,1,0
+6,six,six,six,False,decimal,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0
+7,sept,sept,sept,False,decimal,1,1,0,2,2,0,2,2,0,1,1,0,1,1,0
+8,huit,huit,huit,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,2,2,0
+9,neuf,neuf,neuf,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+10,dix,dix,dix,False,decimal,2,2,0,2,2,0,2,2,0,1,1,0,2,2,0
+11,onze,onze,onze,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+12,douze,douze,douze,False,decimal,2,2,0,3,3,0,3,3,0,2,2,0,2,2,0
+13,treize,treize,treize,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+14,quatorze,quatorze,quatorze,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+15,quinze,quinze,quinze,False,decimal,2,2,0,2,2,0,2,2,0,3,3,0,3,3,0
+16,seize,seize,seize,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+17,dix-sept,dix-sept,dix-sept,False,decimal,4,4,0,4,4,0,5,5,0,4,4,0,5,5,0
+18,dix-huit,dix-huit,dix-huit,False,decimal,4,4,0,4,4,0,5,5,0,4,4,0,5,5,0
+19,dix-neuf,dix-neuf,dix-neuf,False,decimal,4,4,0,4,4,0,5,5,0,4,4,0,5,5,0
+20,vingt,vingt,vingt,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,3,3,0
+21,vingt et un,vingt et un,vingt et un,False,decimal,4,4,0,4,4,0,4,4,0,4,4,0,5,5,0
+22,vingt-deux,vingt-deux,vingt-deux,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+23,vingt-trois,vingt-trois,vingt-trois,False,decimal,5,5,0,5,5,0,5,5,0,6,6,0,7,7,0
+24,vingt-quatre,vingt-quatre,vingt-quatre,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+25,vingt-cinq,vingt-cinq,vingt-cinq,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+26,vingt-six,vingt-six,vingt-six,False,decimal,3,3,0,3,3,0,4,4,0,4,4,0,5,5,0
+27,vingt-sept,vingt-sept,vingt-sept,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+28,vingt-huit,vingt-huit,vingt-huit,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+29,vingt-neuf,vingt-neuf,vingt-neuf,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,6,6,0
+30,trente,trente,trente,False,decimal,2,2,0,2,2,0,3,3,0,2,2,0,2,2,0
+31,trente et un,trente et un,trente et un,False,decimal,4,4,0,4,4,0,5,5,0,4,4,0,4,4,0
+32,trente-deux,trente-deux,trente-deux,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+33,trente-trois,trente-trois,trente-trois,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+34,trente-quatre,trente-quatre,trente-quatre,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+35,trente-cinq,trente-cinq,trente-cinq,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+36,trente-six,trente-six,trente-six,False,decimal,3,3,0,3,3,0,5,5,0,4,4,0,4,4,0
+37,trente-sept,trente-sept,trente-sept,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+38,trente-huit,trente-huit,trente-huit,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+39,trente-neuf,trente-neuf,trente-neuf,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+40,quarante,quarante,quarante,False,decimal,2,2,0,3,3,0,3,3,0,2,2,0,2,2,0
+41,quarante et un,quarante et un,quarante et un,False,decimal,4,4,0,5,5,0,5,5,0,4,4,0,4,4,0
+42,quarante-deux,quarante-deux,quarante-deux,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+43,quarante-trois,quarante-trois,quarante-trois,False,decimal,5,5,0,6,6,0,6,6,0,6,6,0,6,6,0
+44,quarante-quatre,quarante-quatre,quarante-quatre,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+45,quarante-cinq,quarante-cinq,quarante-cinq,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+46,quarante-six,quarante-six,quarante-six,False,decimal,3,3,0,4,4,0,5,5,0,4,4,0,4,4,0
+47,quarante-sept,quarante-sept,quarante-sept,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+48,quarante-huit,quarante-huit,quarante-huit,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+49,quarante-neuf,quarante-neuf,quarante-neuf,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+50,cinquante,cinquante,cinquante,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+51,cinquante et un,cinquante et un,cinquante et un,False,decimal,5,5,0,5,5,0,5,5,0,5,5,0,5,5,0
+52,cinquante-deux,cinquante-deux,cinquante-deux,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+53,cinquante-trois,cinquante-trois,cinquante-trois,False,decimal,6,6,0,6,6,0,6,6,0,7,7,0,7,7,0
+54,cinquante-quatre,cinquante-quatre,cinquante-quatre,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+55,cinquante-cinq,cinquante-cinq,cinquante-cinq,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+56,cinquante-six,cinquante-six,cinquante-six,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,5,5,0
+57,cinquante-sept,cinquante-sept,cinquante-sept,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+58,cinquante-huit,cinquante-huit,cinquante-huit,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+59,cinquante-neuf,cinquante-neuf,cinquante-neuf,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+60,soixante,soixante,soixante,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+61,soixante et un,soixante et un,soixante et un,False,decimal,5,5,0,5,5,0,5,5,0,5,5,0,5,5,0
+62,soixante-deux,soixante-deux,soixante-deux,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+63,soixante-trois,soixante-trois,soixante-trois,False,decimal,6,6,0,6,6,0,6,6,0,7,7,0,7,7,0
+64,soixante-quatre,soixante-quatre,soixante-quatre,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+65,soixante-cinq,soixante-cinq,soixante-cinq,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+66,soixante-six,soixante-six,soixante-six,False,decimal,4,4,0,4,4,0,5,5,0,5,5,0,5,5,0
+67,soixante-sept,soixante-sept,soixante-sept,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+68,soixante-huit,soixante-huit,soixante-huit,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+69,soixante-neuf,soixante-neuf,soixante-neuf,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+70,soixante-dix,septante,septante,True,vigesimal,5,2,3,5,3,2,6,3,3,6,2,4,6,2,4
+71,soixante et onze,septante et un,septante et un,True,vigesimal,5,4,1,5,5,0,6,5,1,6,4,2,6,4,2
+72,soixante-douze,septante-deux,septante-deux,True,vigesimal,6,4,2,6,5,1,7,6,1,7,5,2,7,5,2
+73,soixante-treize,septante-trois,septante-trois,True,vigesimal,6,5,1,6,6,0,6,6,0,6,6,0,6,6,0
+74,soixante-quatorze,septante-quatre,septante-quatre,True,vigesimal,6,4,2,6,5,1,7,6,1,7,5,2,7,5,2
+75,soixante-quinze,septante-cinq,septante-cinq,True,vigesimal,6,4,2,6,5,1,6,6,0,6,5,1,6,5,1
+76,soixante-seize,septante-six,septante-six,True,vigesimal,5,3,2,5,4,1,6,5,1,6,4,2,6,4,2
+77,soixante-dix-sept,septante-sept,septante-sept,True,vigesimal,7,4,3,7,5,2,9,6,3,9,5,4,9,5,4
+78,soixante-dix-huit,septante-huit,septante-huit,True,vigesimal,7,4,3,7,5,2,9,6,3,9,5,4,9,5,4
+79,soixante-dix-neuf,septante-neuf,septante-neuf,True,vigesimal,7,4,3,7,5,2,9,6,3,9,5,4,9,5,4
+80,quatre-vingts,huitante,quatre-vingt,True,vigesimal,5,3,2,5,3,2,5,3,2,4,2,2,4,3,1
+81,quatre-vingt-un,huitante et un,quatre-vingt et un,True,vigesimal,6,5,1,6,5,1,7,5,2,6,4,2,6,5,1
+82,quatre-vingt-deux,huitante-deux,quatre-vingt-deux,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+83,quatre-vingt-trois,huitante-trois,quatre-vingt-trois,True,vigesimal,8,6,2,8,6,2,8,6,2,8,6,2,8,7,1
+84,quatre-vingt-quatre,huitante-quatre,quatre-vingt-quatre,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+85,quatre-vingt-cinq,huitante-cinq,quatre-vingt-cinq,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+86,quatre-vingt-six,huitante-six,quatre-vingt-six,True,vigesimal,6,4,2,6,4,2,7,5,2,6,4,2,6,5,1
+87,quatre-vingt-sept,huitante-sept,quatre-vingt-sept,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+88,quatre-vingt-huit,huitante-huit,quatre-vingt-huit,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+89,quatre-vingt-neuf,huitante-neuf,quatre-vingt-neuf,True,vigesimal,7,5,2,7,5,2,8,6,2,7,5,2,7,6,1
+90,quatre-vingt-dix,nonante,nonante,True,vigesimal,7,2,5,7,2,5,8,2,6,7,2,5,7,2,5
+91,quatre-vingt-onze,nonante et un,nonante et un,True,vigesimal,7,4,3,7,4,3,8,4,4,7,4,3,7,4,3
+92,quatre-vingt-douze,nonante-deux,nonante-deux,True,vigesimal,8,4,4,8,4,4,9,5,4,8,5,3,8,5,3
+93,quatre-vingt-treize,nonante-trois,nonante-trois,True,vigesimal,8,5,3,8,5,3,8,5,3,7,6,1,7,6,1
+94,quatre-vingt-quatorze,nonante-quatre,nonante-quatre,True,vigesimal,8,4,4,8,4,4,9,5,4,8,5,3,8,5,3
+95,quatre-vingt-quinze,nonante-cinq,nonante-cinq,True,vigesimal,8,4,4,8,4,4,8,5,3,7,5,2,7,5,2
+96,quatre-vingt-seize,nonante-six,nonante-six,True,vigesimal,7,3,4,7,3,4,8,4,4,7,4,3,7,4,3
+97,quatre-vingt-dix-sept,nonante-sept,nonante-sept,True,vigesimal,9,4,5,9,4,5,11,5,6,10,5,5,10,5,5
+98,quatre-vingt-dix-huit,nonante-huit,nonante-huit,True,vigesimal,9,4,5,9,4,5,11,5,6,10,5,5,10,5,5
+99,quatre-vingt-dix-neuf,nonante-neuf,nonante-neuf,True,vigesimal,9,4,5,9,4,5,11,5,6,10,5,5,10,5,5
+100,cent,cent,cent,False,decimal,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0
+101,cent un,cent un,cent un,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+102,cent deux,cent deux,cent deux,False,decimal,2,2,0,2,2,0,3,3,0,2,2,0,2,2,0
+103,cent trois,cent trois,cent trois,False,decimal,2,2,0,2,2,0,3,3,0,2,2,0,2,2,0
+104,cent quatre,cent quatre,cent quatre,False,decimal,2,2,0,2,2,0,3,3,0,2,2,0,2,2,0
+105,cent cinq,cent cinq,cent cinq,False,decimal,2,2,0,3,3,0,4,4,0,2,2,0,2,2,0
+106,cent six,cent six,cent six,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0
+107,cent sept,cent sept,cent sept,False,decimal,2,2,0,2,2,0,3,3,0,2,2,0,2,2,0
+108,cent huit,cent huit,cent huit,False,decimal,2,2,0,3,3,0,3,3,0,2,2,0,3,3,0
+109,cent neuf,cent neuf,cent neuf,False,decimal,2,2,0,3,3,0,3,3,0,3,3,0,3,3,0
+110,cent dix,cent dix,cent dix,False,decimal,2,2,0,3,3,0,3,3,0,2,2,0,3,3,0
+111,cent onze,cent onze,cent onze,False,decimal,2,2,0,2,2,0,3,3,0,3,3,0,3,3,0
+112,cent douze,cent douze,cent douze,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+113,cent treize,cent treize,cent treize,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+114,cent quatorze,cent quatorze,cent quatorze,False,decimal,4,4,0,4,4,0,4,4,0,4,4,0,4,4,0
+115,cent quinze,cent quinze,cent quinze,False,decimal,2,2,0,4,4,0,4,4,0,4,4,0,4,4,0
+116,cent seize,cent seize,cent seize,False,decimal,2,2,0,2,2,0,2,2,0,3,3,0,3,3,0
+117,cent dix-sept,cent dix-sept,cent dix-sept,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,6,6,0
+118,cent dix-huit,cent dix-huit,cent dix-huit,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,6,6,0
+119,cent dix-neuf,cent dix-neuf,cent dix-neuf,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,6,6,0
+120,cent vingt,cent vingt,cent vingt,False,decimal,2,2,0,3,3,0,4,4,0,3,3,0,4,4,0
+121,cent vingt et un,cent vingt et un,cent vingt et un,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,6,6,0
+122,cent vingt-deux,cent vingt-deux,cent vingt-deux,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+123,cent vingt-trois,cent vingt-trois,cent vingt-trois,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,8,8,0
+124,cent vingt-quatre,cent vingt-quatre,cent vingt-quatre,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+125,cent vingt-cinq,cent vingt-cinq,cent vingt-cinq,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+126,cent vingt-six,cent vingt-six,cent vingt-six,False,decimal,3,3,0,4,4,0,6,6,0,5,5,0,6,6,0
+127,cent vingt-sept,cent vingt-sept,cent vingt-sept,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+128,cent vingt-huit,cent vingt-huit,cent vingt-huit,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+129,cent vingt-neuf,cent vingt-neuf,cent vingt-neuf,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,7,7,0
+130,cent trente,cent trente,cent trente,False,decimal,2,2,0,3,3,0,4,4,0,3,3,0,3,3,0
+131,cent trente et un,cent trente et un,cent trente et un,False,decimal,4,4,0,5,5,0,6,6,0,5,5,0,5,5,0
+132,cent trente-deux,cent trente-deux,cent trente-deux,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+133,cent trente-trois,cent trente-trois,cent trente-trois,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+134,cent trente-quatre,cent trente-quatre,cent trente-quatre,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+135,cent trente-cinq,cent trente-cinq,cent trente-cinq,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+136,cent trente-six,cent trente-six,cent trente-six,False,decimal,3,3,0,4,4,0,6,6,0,5,5,0,5,5,0
+137,cent trente-sept,cent trente-sept,cent trente-sept,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+138,cent trente-huit,cent trente-huit,cent trente-huit,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+139,cent trente-neuf,cent trente-neuf,cent trente-neuf,False,decimal,4,4,0,5,5,0,7,7,0,6,6,0,6,6,0
+140,cent quarante,cent quarante,cent quarante,False,decimal,3,3,0,3,3,0,4,4,0,3,3,0,3,3,0
+141,cent quarante et un,cent quarante et un,cent quarante et un,False,decimal,5,5,0,5,5,0,6,6,0,5,5,0,5,5,0
+142,cent quarante-deux,cent quarante-deux,cent quarante-deux,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+143,cent quarante-trois,cent quarante-trois,cent quarante-trois,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+144,cent quarante-quatre,cent quarante-quatre,cent quarante-quatre,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+145,cent quarante-cinq,cent quarante-cinq,cent quarante-cinq,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+146,cent quarante-six,cent quarante-six,cent quarante-six,False,decimal,4,4,0,4,4,0,6,6,0,5,5,0,5,5,0
+147,cent quarante-sept,cent quarante-sept,cent quarante-sept,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+148,cent quarante-huit,cent quarante-huit,cent quarante-huit,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+149,cent quarante-neuf,cent quarante-neuf,cent quarante-neuf,False,decimal,5,5,0,5,5,0,7,7,0,6,6,0,6,6,0
+150,cent cinquante,cent cinquante,cent cinquante,False,decimal,3,3,0,4,4,0,4,4,0,4,4,0,4,4,0
+151,cent cinquante et un,cent cinquante et un,cent cinquante et un,False,decimal,5,5,0,6,6,0,6,6,0,6,6,0,6,6,0
+152,cent cinquante-deux,cent cinquante-deux,cent cinquante-deux,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+153,cent cinquante-trois,cent cinquante-trois,cent cinquante-trois,False,decimal,6,6,0,7,7,0,7,7,0,8,8,0,8,8,0
+154,cent cinquante-quatre,cent cinquante-quatre,cent cinquante-quatre,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+155,cent cinquante-cinq,cent cinquante-cinq,cent cinquante-cinq,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+156,cent cinquante-six,cent cinquante-six,cent cinquante-six,False,decimal,4,4,0,5,5,0,6,6,0,6,6,0,6,6,0
+157,cent cinquante-sept,cent cinquante-sept,cent cinquante-sept,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+158,cent cinquante-huit,cent cinquante-huit,cent cinquante-huit,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+159,cent cinquante-neuf,cent cinquante-neuf,cent cinquante-neuf,False,decimal,5,5,0,6,6,0,7,7,0,7,7,0,7,7,0
+160,cent soixante,cent soixante,cent soixante,False,decimal,4,4,0,4,4,0,4,4,0,4,4,0,4,4,0
+161,cent soixante et un,cent soixante et un,cent soixante et un,False,decimal,6,6,0,6,6,0,6,6,0,6,6,0,6,6,0
+162,cent soixante-deux,cent soixante-deux,cent soixante-deux,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+163,cent soixante-trois,cent soixante-trois,cent soixante-trois,False,decimal,7,7,0,7,7,0,7,7,0,8,8,0,8,8,0
+164,cent soixante-quatre,cent soixante-quatre,cent soixante-quatre,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+165,cent soixante-cinq,cent soixante-cinq,cent soixante-cinq,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+166,cent soixante-six,cent soixante-six,cent soixante-six,False,decimal,5,5,0,5,5,0,6,6,0,6,6,0,6,6,0
+167,cent soixante-sept,cent soixante-sept,cent soixante-sept,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+168,cent soixante-huit,cent soixante-huit,cent soixante-huit,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+169,cent soixante-neuf,cent soixante-neuf,cent soixante-neuf,False,decimal,6,6,0,6,6,0,7,7,0,7,7,0,7,7,0
+170,cent soixante-dix,cent septante,cent septante,False,decimal,6,3,3,6,3,3,7,4,3,7,3,4,7,3,4
+171,cent soixante et onze,cent septante et un,cent septante et un,False,decimal,6,5,1,6,5,1,7,6,1,7,5,2,7,5,2
+172,cent soixante-douze,cent septante-deux,cent septante-deux,False,decimal,7,5,2,7,5,2,8,7,1,8,6,2,8,6,2
+173,cent soixante-treize,cent septante-trois,cent septante-trois,False,decimal,7,6,1,7,6,1,7,7,0,7,7,0,7,7,0
+174,cent soixante-quatorze,cent septante-quatre,cent septante-quatre,False,decimal,7,5,2,7,5,2,8,7,1,8,6,2,8,6,2
+175,cent soixante-quinze,cent septante-cinq,cent septante-cinq,False,decimal,7,5,2,7,5,2,7,7,0,7,6,1,7,6,1
+176,cent soixante-seize,cent septante-six,cent septante-six,False,decimal,6,4,2,6,4,2,7,6,1,7,5,2,7,5,2
+177,cent soixante-dix-sept,cent septante-sept,cent septante-sept,False,decimal,8,5,3,8,5,3,10,7,3,10,6,4,10,6,4
+178,cent soixante-dix-huit,cent septante-huit,cent septante-huit,False,decimal,8,5,3,8,5,3,10,7,3,10,6,4,10,6,4
+179,cent soixante-dix-neuf,cent septante-neuf,cent septante-neuf,False,decimal,8,5,3,8,5,3,10,7,3,10,6,4,10,6,4
+180,cent quatre-vingts,cent huitante,cent quatre-vingt,False,decimal,5,3,2,5,4,1,6,4,2,5,3,2,5,4,1
+181,cent quatre-vingt-un,cent huitante et un,cent quatre-vingt et un,False,decimal,6,5,1,6,6,0,8,6,2,7,5,2,7,6,1
+182,cent quatre-vingt-deux,cent huitante-deux,cent quatre-vingt-deux,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+183,cent quatre-vingt-trois,cent huitante-trois,cent quatre-vingt-trois,False,decimal,8,6,2,8,7,1,9,7,2,9,7,2,9,8,1
+184,cent quatre-vingt-quatre,cent huitante-quatre,cent quatre-vingt-quatre,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+185,cent quatre-vingt-cinq,cent huitante-cinq,cent quatre-vingt-cinq,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+186,cent quatre-vingt-six,cent huitante-six,cent quatre-vingt-six,False,decimal,6,4,2,6,5,1,8,6,2,7,5,2,7,6,1
+187,cent quatre-vingt-sept,cent huitante-sept,cent quatre-vingt-sept,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+188,cent quatre-vingt-huit,cent huitante-huit,cent quatre-vingt-huit,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+189,cent quatre-vingt-neuf,cent huitante-neuf,cent quatre-vingt-neuf,False,decimal,7,5,2,7,6,1,9,7,2,8,6,2,8,7,1
+190,cent quatre-vingt-dix,cent nonante,cent nonante,False,decimal,7,3,4,7,3,4,9,3,6,8,3,5,8,3,5
+191,cent quatre-vingt-onze,cent nonante et un,cent nonante et un,False,decimal,7,5,2,7,5,2,9,5,4,8,5,3,8,5,3
+192,cent quatre-vingt-douze,cent nonante-deux,cent nonante-deux,False,decimal,8,5,3,8,5,3,10,6,4,9,6,3,9,6,3
+193,cent quatre-vingt-treize,cent nonante-trois,cent nonante-trois,False,decimal,8,6,2,8,6,2,9,6,3,8,7,1,8,7,1
+194,cent quatre-vingt-quatorze,cent nonante-quatre,cent nonante-quatre,False,decimal,8,5,3,8,5,3,10,6,4,9,6,3,9,6,3
+195,cent quatre-vingt-quinze,cent nonante-cinq,cent nonante-cinq,False,decimal,8,5,3,8,5,3,9,6,3,8,6,2,8,6,2
+196,cent quatre-vingt-seize,cent nonante-six,cent nonante-six,False,decimal,7,4,3,7,4,3,9,5,4,8,5,3,8,5,3
+197,cent quatre-vingt-dix-sept,cent nonante-sept,cent nonante-sept,False,decimal,9,5,4,9,5,4,12,6,6,11,6,5,11,6,5
+198,cent quatre-vingt-dix-huit,cent nonante-huit,cent nonante-huit,False,decimal,9,5,4,9,5,4,12,6,6,11,6,5,11,6,5
+199,cent quatre-vingt-dix-neuf,cent nonante-neuf,cent nonante-neuf,False,decimal,9,5,4,9,5,4,12,6,6,11,6,5,11,6,5
+200,deux cents,deux cents,deux cents,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,2,2,0
+201,deux cent un,deux cents un,deux cents un,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+202,deux cent deux,deux cents deux,deux cents deux,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+203,deux cent trois,deux cents trois,deux cents trois,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+204,deux cent quatre,deux cents quatre,deux cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+205,deux cent cinq,deux cents cinq,deux cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,3,4,-1,3,3,0
+206,deux cent six,deux cents six,deux cents six,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+207,deux cent sept,deux cents sept,deux cents sept,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+208,deux cent huit,deux cents huit,deux cents huit,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+209,deux cent neuf,deux cents neuf,deux cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+210,deux cent dix,deux cents dix,deux cents dix,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+211,deux cent onze,deux cents onze,deux cents onze,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+212,deux cent douze,deux cents douze,deux cents douze,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+213,deux cent treize,deux cents treize,deux cents treize,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+214,deux cent quatorze,deux cents quatorze,deux cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+215,deux cent quinze,deux cents quinze,deux cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,5,5,0
+216,deux cent seize,deux cents seize,deux cents seize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+217,deux cent dix-sept,deux cents dix-sept,deux cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+218,deux cent dix-huit,deux cents dix-huit,deux cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+219,deux cent dix-neuf,deux cents dix-neuf,deux cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+220,deux cent vingt,deux cents vingt,deux cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,5,5,0
+221,deux cent vingt et un,deux cents vingt et un,deux cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+222,deux cent vingt-deux,deux cents vingt-deux,deux cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+223,deux cent vingt-trois,deux cents vingt-trois,deux cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+224,deux cent vingt-quatre,deux cents vingt-quatre,deux cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+225,deux cent vingt-cinq,deux cents vingt-cinq,deux cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+226,deux cent vingt-six,deux cents vingt-six,deux cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,7,7,0
+227,deux cent vingt-sept,deux cents vingt-sept,deux cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+228,deux cent vingt-huit,deux cents vingt-huit,deux cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+229,deux cent vingt-neuf,deux cents vingt-neuf,deux cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+230,deux cent trente,deux cents trente,deux cents trente,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+231,deux cent trente et un,deux cents trente et un,deux cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,6,6,0
+232,deux cent trente-deux,deux cents trente-deux,deux cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+233,deux cent trente-trois,deux cents trente-trois,deux cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+234,deux cent trente-quatre,deux cents trente-quatre,deux cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+235,deux cent trente-cinq,deux cents trente-cinq,deux cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+236,deux cent trente-six,deux cents trente-six,deux cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,6,6,0
+237,deux cent trente-sept,deux cents trente-sept,deux cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+238,deux cent trente-huit,deux cents trente-huit,deux cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+239,deux cent trente-neuf,deux cents trente-neuf,deux cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+240,deux cent quarante,deux cents quarante,deux cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,4,5,-1,4,4,0
+241,deux cent quarante et un,deux cents quarante et un,deux cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,6,7,-1,6,6,0
+242,deux cent quarante-deux,deux cents quarante-deux,deux cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+243,deux cent quarante-trois,deux cents quarante-trois,deux cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+244,deux cent quarante-quatre,deux cents quarante-quatre,deux cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+245,deux cent quarante-cinq,deux cents quarante-cinq,deux cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+246,deux cent quarante-six,deux cents quarante-six,deux cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,6,7,-1,6,6,0
+247,deux cent quarante-sept,deux cents quarante-sept,deux cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+248,deux cent quarante-huit,deux cents quarante-huit,deux cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+249,deux cent quarante-neuf,deux cents quarante-neuf,deux cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+250,deux cent cinquante,deux cents cinquante,deux cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+251,deux cent cinquante et un,deux cents cinquante et un,deux cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,7,7,0
+252,deux cent cinquante-deux,deux cents cinquante-deux,deux cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+253,deux cent cinquante-trois,deux cents cinquante-trois,deux cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,9,9,0
+254,deux cent cinquante-quatre,deux cents cinquante-quatre,deux cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+255,deux cent cinquante-cinq,deux cents cinquante-cinq,deux cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+256,deux cent cinquante-six,deux cents cinquante-six,deux cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+257,deux cent cinquante-sept,deux cents cinquante-sept,deux cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+258,deux cent cinquante-huit,deux cents cinquante-huit,deux cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+259,deux cent cinquante-neuf,deux cents cinquante-neuf,deux cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+260,deux cent soixante,deux cents soixante,deux cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+261,deux cent soixante et un,deux cents soixante et un,deux cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,7,8,-1,7,7,0
+262,deux cent soixante-deux,deux cents soixante-deux,deux cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+263,deux cent soixante-trois,deux cents soixante-trois,deux cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,9,10,-1,9,9,0
+264,deux cent soixante-quatre,deux cents soixante-quatre,deux cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+265,deux cent soixante-cinq,deux cents soixante-cinq,deux cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+266,deux cent soixante-six,deux cents soixante-six,deux cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,7,7,0
+267,deux cent soixante-sept,deux cents soixante-sept,deux cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+268,deux cent soixante-huit,deux cents soixante-huit,deux cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+269,deux cent soixante-neuf,deux cents soixante-neuf,deux cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+270,deux cent soixante-dix,deux cents septante,deux cents septante,False,decimal,8,5,3,8,5,3,9,6,3,8,5,3,8,4,4
+271,deux cent soixante et onze,deux cents septante et un,deux cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,8,7,1,8,6,2
+272,deux cent soixante-douze,deux cents septante-deux,deux cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+273,deux cent soixante-treize,deux cents septante-trois,deux cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,8,9,-1,8,8,0
+274,deux cent soixante-quatorze,deux cents septante-quatre,deux cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+275,deux cent soixante-quinze,deux cents septante-cinq,deux cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,8,8,0,8,7,1
+276,deux cent soixante-seize,deux cents septante-six,deux cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,8,7,1,8,6,2
+277,deux cent soixante-dix-sept,deux cents septante-sept,deux cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+278,deux cent soixante-dix-huit,deux cents septante-huit,deux cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+279,deux cent soixante-dix-neuf,deux cents septante-neuf,deux cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+280,deux cent quatre-vingts,deux cents huitante,deux cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,6,5,1,6,5,1
+281,deux cent quatre-vingt-un,deux cents huitante et un,deux cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,8,7,1,8,7,1
+282,deux cent quatre-vingt-deux,deux cents huitante-deux,deux cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+283,deux cent quatre-vingt-trois,deux cents huitante-trois,deux cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,10,9,1,10,9,1
+284,deux cent quatre-vingt-quatre,deux cents huitante-quatre,deux cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+285,deux cent quatre-vingt-cinq,deux cents huitante-cinq,deux cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+286,deux cent quatre-vingt-six,deux cents huitante-six,deux cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,8,7,1,8,7,1
+287,deux cent quatre-vingt-sept,deux cents huitante-sept,deux cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+288,deux cent quatre-vingt-huit,deux cents huitante-huit,deux cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+289,deux cent quatre-vingt-neuf,deux cents huitante-neuf,deux cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+290,deux cent quatre-vingt-dix,deux cents nonante,deux cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,9,5,4,9,4,5
+291,deux cent quatre-vingt-onze,deux cents nonante et un,deux cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,9,7,2,9,6,3
+292,deux cent quatre-vingt-douze,deux cents nonante-deux,deux cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+293,deux cent quatre-vingt-treize,deux cents nonante-trois,deux cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,9,9,0,9,8,1
+294,deux cent quatre-vingt-quatorze,deux cents nonante-quatre,deux cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+295,deux cent quatre-vingt-quinze,deux cents nonante-cinq,deux cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,9,8,1,9,7,2
+296,deux cent quatre-vingt-seize,deux cents nonante-six,deux cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,9,7,2,9,6,3
+297,deux cent quatre-vingt-dix-sept,deux cents nonante-sept,deux cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+298,deux cent quatre-vingt-dix-huit,deux cents nonante-huit,deux cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+299,deux cent quatre-vingt-dix-neuf,deux cents nonante-neuf,deux cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+300,trois cents,trois cents,trois cents,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,2,2,0
+301,trois cent un,trois cents un,trois cents un,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+302,trois cent deux,trois cents deux,trois cents deux,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+303,trois cent trois,trois cents trois,trois cents trois,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+304,trois cent quatre,trois cents quatre,trois cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+305,trois cent cinq,trois cents cinq,trois cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,3,4,-1,3,3,0
+306,trois cent six,trois cents six,trois cents six,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+307,trois cent sept,trois cents sept,trois cents sept,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+308,trois cent huit,trois cents huit,trois cents huit,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+309,trois cent neuf,trois cents neuf,trois cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+310,trois cent dix,trois cents dix,trois cents dix,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+311,trois cent onze,trois cents onze,trois cents onze,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+312,trois cent douze,trois cents douze,trois cents douze,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+313,trois cent treize,trois cents treize,trois cents treize,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+314,trois cent quatorze,trois cents quatorze,trois cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+315,trois cent quinze,trois cents quinze,trois cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,5,5,0
+316,trois cent seize,trois cents seize,trois cents seize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+317,trois cent dix-sept,trois cents dix-sept,trois cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+318,trois cent dix-huit,trois cents dix-huit,trois cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+319,trois cent dix-neuf,trois cents dix-neuf,trois cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+320,trois cent vingt,trois cents vingt,trois cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,5,5,0
+321,trois cent vingt et un,trois cents vingt et un,trois cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+322,trois cent vingt-deux,trois cents vingt-deux,trois cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+323,trois cent vingt-trois,trois cents vingt-trois,trois cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+324,trois cent vingt-quatre,trois cents vingt-quatre,trois cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+325,trois cent vingt-cinq,trois cents vingt-cinq,trois cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+326,trois cent vingt-six,trois cents vingt-six,trois cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,7,7,0
+327,trois cent vingt-sept,trois cents vingt-sept,trois cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+328,trois cent vingt-huit,trois cents vingt-huit,trois cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+329,trois cent vingt-neuf,trois cents vingt-neuf,trois cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+330,trois cent trente,trois cents trente,trois cents trente,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+331,trois cent trente et un,trois cents trente et un,trois cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,6,6,0
+332,trois cent trente-deux,trois cents trente-deux,trois cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+333,trois cent trente-trois,trois cents trente-trois,trois cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+334,trois cent trente-quatre,trois cents trente-quatre,trois cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+335,trois cent trente-cinq,trois cents trente-cinq,trois cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+336,trois cent trente-six,trois cents trente-six,trois cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,6,6,0
+337,trois cent trente-sept,trois cents trente-sept,trois cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+338,trois cent trente-huit,trois cents trente-huit,trois cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+339,trois cent trente-neuf,trois cents trente-neuf,trois cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+340,trois cent quarante,trois cents quarante,trois cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,4,5,-1,4,4,0
+341,trois cent quarante et un,trois cents quarante et un,trois cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,6,7,-1,6,6,0
+342,trois cent quarante-deux,trois cents quarante-deux,trois cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+343,trois cent quarante-trois,trois cents quarante-trois,trois cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+344,trois cent quarante-quatre,trois cents quarante-quatre,trois cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+345,trois cent quarante-cinq,trois cents quarante-cinq,trois cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+346,trois cent quarante-six,trois cents quarante-six,trois cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,6,7,-1,6,6,0
+347,trois cent quarante-sept,trois cents quarante-sept,trois cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+348,trois cent quarante-huit,trois cents quarante-huit,trois cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+349,trois cent quarante-neuf,trois cents quarante-neuf,trois cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+350,trois cent cinquante,trois cents cinquante,trois cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+351,trois cent cinquante et un,trois cents cinquante et un,trois cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,7,7,0
+352,trois cent cinquante-deux,trois cents cinquante-deux,trois cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+353,trois cent cinquante-trois,trois cents cinquante-trois,trois cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,9,9,0
+354,trois cent cinquante-quatre,trois cents cinquante-quatre,trois cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+355,trois cent cinquante-cinq,trois cents cinquante-cinq,trois cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+356,trois cent cinquante-six,trois cents cinquante-six,trois cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+357,trois cent cinquante-sept,trois cents cinquante-sept,trois cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+358,trois cent cinquante-huit,trois cents cinquante-huit,trois cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+359,trois cent cinquante-neuf,trois cents cinquante-neuf,trois cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+360,trois cent soixante,trois cents soixante,trois cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+361,trois cent soixante et un,trois cents soixante et un,trois cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,7,8,-1,7,7,0
+362,trois cent soixante-deux,trois cents soixante-deux,trois cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+363,trois cent soixante-trois,trois cents soixante-trois,trois cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,9,10,-1,9,9,0
+364,trois cent soixante-quatre,trois cents soixante-quatre,trois cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+365,trois cent soixante-cinq,trois cents soixante-cinq,trois cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+366,trois cent soixante-six,trois cents soixante-six,trois cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,7,7,0
+367,trois cent soixante-sept,trois cents soixante-sept,trois cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+368,trois cent soixante-huit,trois cents soixante-huit,trois cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+369,trois cent soixante-neuf,trois cents soixante-neuf,trois cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+370,trois cent soixante-dix,trois cents septante,trois cents septante,False,decimal,8,5,3,8,5,3,9,6,3,8,5,3,8,4,4
+371,trois cent soixante et onze,trois cents septante et un,trois cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,8,7,1,8,6,2
+372,trois cent soixante-douze,trois cents septante-deux,trois cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+373,trois cent soixante-treize,trois cents septante-trois,trois cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,8,9,-1,8,8,0
+374,trois cent soixante-quatorze,trois cents septante-quatre,trois cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+375,trois cent soixante-quinze,trois cents septante-cinq,trois cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,8,8,0,8,7,1
+376,trois cent soixante-seize,trois cents septante-six,trois cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,8,7,1,8,6,2
+377,trois cent soixante-dix-sept,trois cents septante-sept,trois cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+378,trois cent soixante-dix-huit,trois cents septante-huit,trois cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+379,trois cent soixante-dix-neuf,trois cents septante-neuf,trois cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+380,trois cent quatre-vingts,trois cents huitante,trois cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,6,5,1,6,5,1
+381,trois cent quatre-vingt-un,trois cents huitante et un,trois cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,8,7,1,8,7,1
+382,trois cent quatre-vingt-deux,trois cents huitante-deux,trois cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+383,trois cent quatre-vingt-trois,trois cents huitante-trois,trois cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,10,9,1,10,9,1
+384,trois cent quatre-vingt-quatre,trois cents huitante-quatre,trois cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+385,trois cent quatre-vingt-cinq,trois cents huitante-cinq,trois cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+386,trois cent quatre-vingt-six,trois cents huitante-six,trois cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,8,7,1,8,7,1
+387,trois cent quatre-vingt-sept,trois cents huitante-sept,trois cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+388,trois cent quatre-vingt-huit,trois cents huitante-huit,trois cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+389,trois cent quatre-vingt-neuf,trois cents huitante-neuf,trois cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+390,trois cent quatre-vingt-dix,trois cents nonante,trois cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,9,5,4,9,4,5
+391,trois cent quatre-vingt-onze,trois cents nonante et un,trois cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,9,7,2,9,6,3
+392,trois cent quatre-vingt-douze,trois cents nonante-deux,trois cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+393,trois cent quatre-vingt-treize,trois cents nonante-trois,trois cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,9,9,0,9,8,1
+394,trois cent quatre-vingt-quatorze,trois cents nonante-quatre,trois cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+395,trois cent quatre-vingt-quinze,trois cents nonante-cinq,trois cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,9,8,1,9,7,2
+396,trois cent quatre-vingt-seize,trois cents nonante-six,trois cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,9,7,2,9,6,3
+397,trois cent quatre-vingt-dix-sept,trois cents nonante-sept,trois cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+398,trois cent quatre-vingt-dix-huit,trois cents nonante-huit,trois cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+399,trois cent quatre-vingt-dix-neuf,trois cents nonante-neuf,trois cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+400,quatre cents,quatre cents,quatre cents,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,2,2,0
+401,quatre cent un,quatre cents un,quatre cents un,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+402,quatre cent deux,quatre cents deux,quatre cents deux,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+403,quatre cent trois,quatre cents trois,quatre cents trois,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+404,quatre cent quatre,quatre cents quatre,quatre cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+405,quatre cent cinq,quatre cents cinq,quatre cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,3,4,-1,3,3,0
+406,quatre cent six,quatre cents six,quatre cents six,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+407,quatre cent sept,quatre cents sept,quatre cents sept,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+408,quatre cent huit,quatre cents huit,quatre cents huit,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+409,quatre cent neuf,quatre cents neuf,quatre cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+410,quatre cent dix,quatre cents dix,quatre cents dix,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+411,quatre cent onze,quatre cents onze,quatre cents onze,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+412,quatre cent douze,quatre cents douze,quatre cents douze,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+413,quatre cent treize,quatre cents treize,quatre cents treize,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+414,quatre cent quatorze,quatre cents quatorze,quatre cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+415,quatre cent quinze,quatre cents quinze,quatre cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,5,5,0
+416,quatre cent seize,quatre cents seize,quatre cents seize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+417,quatre cent dix-sept,quatre cents dix-sept,quatre cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+418,quatre cent dix-huit,quatre cents dix-huit,quatre cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+419,quatre cent dix-neuf,quatre cents dix-neuf,quatre cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+420,quatre cent vingt,quatre cents vingt,quatre cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,5,5,0
+421,quatre cent vingt et un,quatre cents vingt et un,quatre cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+422,quatre cent vingt-deux,quatre cents vingt-deux,quatre cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+423,quatre cent vingt-trois,quatre cents vingt-trois,quatre cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+424,quatre cent vingt-quatre,quatre cents vingt-quatre,quatre cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+425,quatre cent vingt-cinq,quatre cents vingt-cinq,quatre cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+426,quatre cent vingt-six,quatre cents vingt-six,quatre cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,7,7,0
+427,quatre cent vingt-sept,quatre cents vingt-sept,quatre cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+428,quatre cent vingt-huit,quatre cents vingt-huit,quatre cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+429,quatre cent vingt-neuf,quatre cents vingt-neuf,quatre cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+430,quatre cent trente,quatre cents trente,quatre cents trente,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+431,quatre cent trente et un,quatre cents trente et un,quatre cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,6,6,0
+432,quatre cent trente-deux,quatre cents trente-deux,quatre cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+433,quatre cent trente-trois,quatre cents trente-trois,quatre cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+434,quatre cent trente-quatre,quatre cents trente-quatre,quatre cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+435,quatre cent trente-cinq,quatre cents trente-cinq,quatre cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+436,quatre cent trente-six,quatre cents trente-six,quatre cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,6,6,0
+437,quatre cent trente-sept,quatre cents trente-sept,quatre cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+438,quatre cent trente-huit,quatre cents trente-huit,quatre cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+439,quatre cent trente-neuf,quatre cents trente-neuf,quatre cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+440,quatre cent quarante,quatre cents quarante,quatre cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,4,5,-1,4,4,0
+441,quatre cent quarante et un,quatre cents quarante et un,quatre cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,6,7,-1,6,6,0
+442,quatre cent quarante-deux,quatre cents quarante-deux,quatre cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+443,quatre cent quarante-trois,quatre cents quarante-trois,quatre cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+444,quatre cent quarante-quatre,quatre cents quarante-quatre,quatre cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+445,quatre cent quarante-cinq,quatre cents quarante-cinq,quatre cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+446,quatre cent quarante-six,quatre cents quarante-six,quatre cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,6,7,-1,6,6,0
+447,quatre cent quarante-sept,quatre cents quarante-sept,quatre cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+448,quatre cent quarante-huit,quatre cents quarante-huit,quatre cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+449,quatre cent quarante-neuf,quatre cents quarante-neuf,quatre cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+450,quatre cent cinquante,quatre cents cinquante,quatre cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+451,quatre cent cinquante et un,quatre cents cinquante et un,quatre cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,7,7,0
+452,quatre cent cinquante-deux,quatre cents cinquante-deux,quatre cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+453,quatre cent cinquante-trois,quatre cents cinquante-trois,quatre cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,9,9,0
+454,quatre cent cinquante-quatre,quatre cents cinquante-quatre,quatre cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+455,quatre cent cinquante-cinq,quatre cents cinquante-cinq,quatre cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+456,quatre cent cinquante-six,quatre cents cinquante-six,quatre cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+457,quatre cent cinquante-sept,quatre cents cinquante-sept,quatre cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+458,quatre cent cinquante-huit,quatre cents cinquante-huit,quatre cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+459,quatre cent cinquante-neuf,quatre cents cinquante-neuf,quatre cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+460,quatre cent soixante,quatre cents soixante,quatre cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+461,quatre cent soixante et un,quatre cents soixante et un,quatre cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,7,8,-1,7,7,0
+462,quatre cent soixante-deux,quatre cents soixante-deux,quatre cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+463,quatre cent soixante-trois,quatre cents soixante-trois,quatre cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,9,10,-1,9,9,0
+464,quatre cent soixante-quatre,quatre cents soixante-quatre,quatre cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+465,quatre cent soixante-cinq,quatre cents soixante-cinq,quatre cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+466,quatre cent soixante-six,quatre cents soixante-six,quatre cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,7,7,0
+467,quatre cent soixante-sept,quatre cents soixante-sept,quatre cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+468,quatre cent soixante-huit,quatre cents soixante-huit,quatre cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+469,quatre cent soixante-neuf,quatre cents soixante-neuf,quatre cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+470,quatre cent soixante-dix,quatre cents septante,quatre cents septante,False,decimal,8,5,3,8,5,3,9,6,3,8,5,3,8,4,4
+471,quatre cent soixante et onze,quatre cents septante et un,quatre cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,8,7,1,8,6,2
+472,quatre cent soixante-douze,quatre cents septante-deux,quatre cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+473,quatre cent soixante-treize,quatre cents septante-trois,quatre cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,8,9,-1,8,8,0
+474,quatre cent soixante-quatorze,quatre cents septante-quatre,quatre cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+475,quatre cent soixante-quinze,quatre cents septante-cinq,quatre cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,8,8,0,8,7,1
+476,quatre cent soixante-seize,quatre cents septante-six,quatre cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,8,7,1,8,6,2
+477,quatre cent soixante-dix-sept,quatre cents septante-sept,quatre cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+478,quatre cent soixante-dix-huit,quatre cents septante-huit,quatre cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+479,quatre cent soixante-dix-neuf,quatre cents septante-neuf,quatre cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+480,quatre cent quatre-vingts,quatre cents huitante,quatre cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,6,5,1,6,5,1
+481,quatre cent quatre-vingt-un,quatre cents huitante et un,quatre cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,8,7,1,8,7,1
+482,quatre cent quatre-vingt-deux,quatre cents huitante-deux,quatre cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+483,quatre cent quatre-vingt-trois,quatre cents huitante-trois,quatre cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,10,9,1,10,9,1
+484,quatre cent quatre-vingt-quatre,quatre cents huitante-quatre,quatre cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+485,quatre cent quatre-vingt-cinq,quatre cents huitante-cinq,quatre cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+486,quatre cent quatre-vingt-six,quatre cents huitante-six,quatre cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,8,7,1,8,7,1
+487,quatre cent quatre-vingt-sept,quatre cents huitante-sept,quatre cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+488,quatre cent quatre-vingt-huit,quatre cents huitante-huit,quatre cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+489,quatre cent quatre-vingt-neuf,quatre cents huitante-neuf,quatre cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+490,quatre cent quatre-vingt-dix,quatre cents nonante,quatre cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,9,5,4,9,4,5
+491,quatre cent quatre-vingt-onze,quatre cents nonante et un,quatre cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,9,7,2,9,6,3
+492,quatre cent quatre-vingt-douze,quatre cents nonante-deux,quatre cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+493,quatre cent quatre-vingt-treize,quatre cents nonante-trois,quatre cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,9,9,0,9,8,1
+494,quatre cent quatre-vingt-quatorze,quatre cents nonante-quatre,quatre cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+495,quatre cent quatre-vingt-quinze,quatre cents nonante-cinq,quatre cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,9,8,1,9,7,2
+496,quatre cent quatre-vingt-seize,quatre cents nonante-six,quatre cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,9,7,2,9,6,3
+497,quatre cent quatre-vingt-dix-sept,quatre cents nonante-sept,quatre cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+498,quatre cent quatre-vingt-dix-huit,quatre cents nonante-huit,quatre cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+499,quatre cent quatre-vingt-dix-neuf,quatre cents nonante-neuf,quatre cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+500,cinq cents,cinq cents,cinq cents,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,2,2,0
+501,cinq cent un,cinq cents un,cinq cents un,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+502,cinq cent deux,cinq cents deux,cinq cents deux,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+503,cinq cent trois,cinq cents trois,cinq cents trois,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+504,cinq cent quatre,cinq cents quatre,cinq cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+505,cinq cent cinq,cinq cents cinq,cinq cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,3,4,-1,3,3,0
+506,cinq cent six,cinq cents six,cinq cents six,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,3,3,0
+507,cinq cent sept,cinq cents sept,cinq cents sept,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,3,3,0
+508,cinq cent huit,cinq cents huit,cinq cents huit,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+509,cinq cent neuf,cinq cents neuf,cinq cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+510,cinq cent dix,cinq cents dix,cinq cents dix,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,4,4,0
+511,cinq cent onze,cinq cents onze,cinq cents onze,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+512,cinq cent douze,cinq cents douze,cinq cents douze,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+513,cinq cent treize,cinq cents treize,cinq cents treize,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,4,4,0
+514,cinq cent quatorze,cinq cents quatorze,cinq cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+515,cinq cent quinze,cinq cents quinze,cinq cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,5,5,0
+516,cinq cent seize,cinq cents seize,cinq cents seize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+517,cinq cent dix-sept,cinq cents dix-sept,cinq cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+518,cinq cent dix-huit,cinq cents dix-huit,cinq cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+519,cinq cent dix-neuf,cinq cents dix-neuf,cinq cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+520,cinq cent vingt,cinq cents vingt,cinq cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,5,5,0
+521,cinq cent vingt et un,cinq cents vingt et un,cinq cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+522,cinq cent vingt-deux,cinq cents vingt-deux,cinq cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+523,cinq cent vingt-trois,cinq cents vingt-trois,cinq cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+524,cinq cent vingt-quatre,cinq cents vingt-quatre,cinq cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+525,cinq cent vingt-cinq,cinq cents vingt-cinq,cinq cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+526,cinq cent vingt-six,cinq cents vingt-six,cinq cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,7,7,0
+527,cinq cent vingt-sept,cinq cents vingt-sept,cinq cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+528,cinq cent vingt-huit,cinq cents vingt-huit,cinq cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+529,cinq cent vingt-neuf,cinq cents vingt-neuf,cinq cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+530,cinq cent trente,cinq cents trente,cinq cents trente,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+531,cinq cent trente et un,cinq cents trente et un,cinq cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,6,6,0
+532,cinq cent trente-deux,cinq cents trente-deux,cinq cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+533,cinq cent trente-trois,cinq cents trente-trois,cinq cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+534,cinq cent trente-quatre,cinq cents trente-quatre,cinq cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+535,cinq cent trente-cinq,cinq cents trente-cinq,cinq cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+536,cinq cent trente-six,cinq cents trente-six,cinq cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,6,6,0
+537,cinq cent trente-sept,cinq cents trente-sept,cinq cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+538,cinq cent trente-huit,cinq cents trente-huit,cinq cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+539,cinq cent trente-neuf,cinq cents trente-neuf,cinq cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+540,cinq cent quarante,cinq cents quarante,cinq cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,4,5,-1,4,4,0
+541,cinq cent quarante et un,cinq cents quarante et un,cinq cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,6,7,-1,6,6,0
+542,cinq cent quarante-deux,cinq cents quarante-deux,cinq cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+543,cinq cent quarante-trois,cinq cents quarante-trois,cinq cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+544,cinq cent quarante-quatre,cinq cents quarante-quatre,cinq cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+545,cinq cent quarante-cinq,cinq cents quarante-cinq,cinq cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+546,cinq cent quarante-six,cinq cents quarante-six,cinq cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,6,7,-1,6,6,0
+547,cinq cent quarante-sept,cinq cents quarante-sept,cinq cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+548,cinq cent quarante-huit,cinq cents quarante-huit,cinq cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+549,cinq cent quarante-neuf,cinq cents quarante-neuf,cinq cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,7,7,0
+550,cinq cent cinquante,cinq cents cinquante,cinq cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+551,cinq cent cinquante et un,cinq cents cinquante et un,cinq cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,7,7,0
+552,cinq cent cinquante-deux,cinq cents cinquante-deux,cinq cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+553,cinq cent cinquante-trois,cinq cents cinquante-trois,cinq cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,9,9,0
+554,cinq cent cinquante-quatre,cinq cents cinquante-quatre,cinq cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+555,cinq cent cinquante-cinq,cinq cents cinquante-cinq,cinq cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+556,cinq cent cinquante-six,cinq cents cinquante-six,cinq cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+557,cinq cent cinquante-sept,cinq cents cinquante-sept,cinq cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+558,cinq cent cinquante-huit,cinq cents cinquante-huit,cinq cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+559,cinq cent cinquante-neuf,cinq cents cinquante-neuf,cinq cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+560,cinq cent soixante,cinq cents soixante,cinq cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,5,5,0
+561,cinq cent soixante et un,cinq cents soixante et un,cinq cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,7,8,-1,7,7,0
+562,cinq cent soixante-deux,cinq cents soixante-deux,cinq cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+563,cinq cent soixante-trois,cinq cents soixante-trois,cinq cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,9,10,-1,9,9,0
+564,cinq cent soixante-quatre,cinq cents soixante-quatre,cinq cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+565,cinq cent soixante-cinq,cinq cents soixante-cinq,cinq cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+566,cinq cent soixante-six,cinq cents soixante-six,cinq cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,7,7,0
+567,cinq cent soixante-sept,cinq cents soixante-sept,cinq cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+568,cinq cent soixante-huit,cinq cents soixante-huit,cinq cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+569,cinq cent soixante-neuf,cinq cents soixante-neuf,cinq cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,8,8,0
+570,cinq cent soixante-dix,cinq cents septante,cinq cents septante,False,decimal,8,5,3,8,5,3,9,6,3,8,5,3,8,4,4
+571,cinq cent soixante et onze,cinq cents septante et un,cinq cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,8,7,1,8,6,2
+572,cinq cent soixante-douze,cinq cents septante-deux,cinq cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+573,cinq cent soixante-treize,cinq cents septante-trois,cinq cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,8,9,-1,8,8,0
+574,cinq cent soixante-quatorze,cinq cents septante-quatre,cinq cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,9,7,2
+575,cinq cent soixante-quinze,cinq cents septante-cinq,cinq cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,8,8,0,8,7,1
+576,cinq cent soixante-seize,cinq cents septante-six,cinq cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,8,7,1,8,6,2
+577,cinq cent soixante-dix-sept,cinq cents septante-sept,cinq cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+578,cinq cent soixante-dix-huit,cinq cents septante-huit,cinq cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+579,cinq cent soixante-dix-neuf,cinq cents septante-neuf,cinq cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,11,7,4
+580,cinq cent quatre-vingts,cinq cents huitante,cinq cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,6,5,1,6,5,1
+581,cinq cent quatre-vingt-un,cinq cents huitante et un,cinq cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,8,7,1,8,7,1
+582,cinq cent quatre-vingt-deux,cinq cents huitante-deux,cinq cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+583,cinq cent quatre-vingt-trois,cinq cents huitante-trois,cinq cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,10,9,1,10,9,1
+584,cinq cent quatre-vingt-quatre,cinq cents huitante-quatre,cinq cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+585,cinq cent quatre-vingt-cinq,cinq cents huitante-cinq,cinq cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+586,cinq cent quatre-vingt-six,cinq cents huitante-six,cinq cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,8,7,1,8,7,1
+587,cinq cent quatre-vingt-sept,cinq cents huitante-sept,cinq cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+588,cinq cent quatre-vingt-huit,cinq cents huitante-huit,cinq cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+589,cinq cent quatre-vingt-neuf,cinq cents huitante-neuf,cinq cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,9,8,1
+590,cinq cent quatre-vingt-dix,cinq cents nonante,cinq cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,9,5,4,9,4,5
+591,cinq cent quatre-vingt-onze,cinq cents nonante et un,cinq cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,9,7,2,9,6,3
+592,cinq cent quatre-vingt-douze,cinq cents nonante-deux,cinq cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+593,cinq cent quatre-vingt-treize,cinq cents nonante-trois,cinq cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,9,9,0,9,8,1
+594,cinq cent quatre-vingt-quatorze,cinq cents nonante-quatre,cinq cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,10,7,3
+595,cinq cent quatre-vingt-quinze,cinq cents nonante-cinq,cinq cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,9,8,1,9,7,2
+596,cinq cent quatre-vingt-seize,cinq cents nonante-six,cinq cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,9,7,2,9,6,3
+597,cinq cent quatre-vingt-dix-sept,cinq cents nonante-sept,cinq cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+598,cinq cent quatre-vingt-dix-huit,cinq cents nonante-huit,cinq cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+599,cinq cent quatre-vingt-dix-neuf,cinq cents nonante-neuf,cinq cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,12,7,5
+600,six cents,six cents,six cents,False,decimal,2,2,0,2,2,0,2,2,0,3,3,0,2,2,0
+601,six cent un,six cents un,six cents un,False,decimal,3,3,0,3,3,0,3,3,0,3,4,-1,3,3,0
+602,six cent deux,six cents deux,six cents deux,False,decimal,3,3,0,3,3,0,4,4,0,3,4,-1,3,3,0
+603,six cent trois,six cents trois,six cents trois,False,decimal,3,3,0,3,3,0,4,4,0,3,4,-1,3,3,0
+604,six cent quatre,six cents quatre,six cents quatre,False,decimal,3,3,0,3,3,0,4,4,0,3,4,-1,3,3,0
+605,six cent cinq,six cents cinq,six cents cinq,False,decimal,3,3,0,4,4,0,5,5,0,3,4,-1,3,3,0
+606,six cent six,six cents six,six cents six,False,decimal,3,3,0,3,3,0,3,3,0,3,4,-1,3,3,0
+607,six cent sept,six cents sept,six cents sept,False,decimal,3,3,0,3,3,0,4,4,0,3,4,-1,3,3,0
+608,six cent huit,six cents huit,six cents huit,False,decimal,3,3,0,4,4,0,4,4,0,3,4,-1,4,4,0
+609,six cent neuf,six cents neuf,six cents neuf,False,decimal,3,3,0,4,4,0,4,4,0,4,5,-1,4,4,0
+610,six cent dix,six cents dix,six cents dix,False,decimal,3,3,0,4,4,0,4,4,0,3,4,-1,4,4,0
+611,six cent onze,six cents onze,six cents onze,False,decimal,3,3,0,3,3,0,4,4,0,4,5,-1,4,4,0
+612,six cent douze,six cents douze,six cents douze,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+613,six cent treize,six cents treize,six cents treize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+614,six cent quatorze,six cents quatorze,six cents quatorze,False,decimal,5,5,0,5,5,0,5,5,0,5,6,-1,5,5,0
+615,six cent quinze,six cents quinze,six cents quinze,False,decimal,3,3,0,5,5,0,5,5,0,5,6,-1,5,5,0
+616,six cent seize,six cents seize,six cents seize,False,decimal,3,3,0,3,3,0,3,3,0,4,5,-1,4,4,0
+617,six cent dix-sept,six cents dix-sept,six cents dix-sept,False,decimal,5,5,0,6,6,0,7,7,0,6,7,-1,7,7,0
+618,six cent dix-huit,six cents dix-huit,six cents dix-huit,False,decimal,5,5,0,6,6,0,7,7,0,6,7,-1,7,7,0
+619,six cent dix-neuf,six cents dix-neuf,six cents dix-neuf,False,decimal,5,5,0,6,6,0,7,7,0,6,7,-1,7,7,0
+620,six cent vingt,six cents vingt,six cents vingt,False,decimal,3,3,0,4,4,0,5,5,0,4,5,-1,5,5,0
+621,six cent vingt et un,six cents vingt et un,six cents vingt et un,False,decimal,5,5,0,6,6,0,7,7,0,6,7,-1,7,7,0
+622,six cent vingt-deux,six cents vingt-deux,six cents vingt-deux,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+623,six cent vingt-trois,six cents vingt-trois,six cents vingt-trois,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,9,9,0
+624,six cent vingt-quatre,six cents vingt-quatre,six cents vingt-quatre,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+625,six cent vingt-cinq,six cents vingt-cinq,six cents vingt-cinq,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+626,six cent vingt-six,six cents vingt-six,six cents vingt-six,False,decimal,4,4,0,5,5,0,7,7,0,6,7,-1,7,7,0
+627,six cent vingt-sept,six cents vingt-sept,six cents vingt-sept,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+628,six cent vingt-huit,six cents vingt-huit,six cents vingt-huit,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+629,six cent vingt-neuf,six cents vingt-neuf,six cents vingt-neuf,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+630,six cent trente,six cents trente,six cents trente,False,decimal,3,3,0,4,4,0,5,5,0,4,5,-1,4,4,0
+631,six cent trente et un,six cents trente et un,six cents trente et un,False,decimal,5,5,0,6,6,0,7,7,0,6,7,-1,6,6,0
+632,six cent trente-deux,six cents trente-deux,six cents trente-deux,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+633,six cent trente-trois,six cents trente-trois,six cents trente-trois,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+634,six cent trente-quatre,six cents trente-quatre,six cents trente-quatre,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+635,six cent trente-cinq,six cents trente-cinq,six cents trente-cinq,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+636,six cent trente-six,six cents trente-six,six cents trente-six,False,decimal,4,4,0,5,5,0,7,7,0,6,7,-1,6,6,0
+637,six cent trente-sept,six cents trente-sept,six cents trente-sept,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+638,six cent trente-huit,six cents trente-huit,six cents trente-huit,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+639,six cent trente-neuf,six cents trente-neuf,six cents trente-neuf,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+640,six cent quarante,six cents quarante,six cents quarante,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+641,six cent quarante et un,six cents quarante et un,six cents quarante et un,False,decimal,6,6,0,6,6,0,7,7,0,6,7,-1,6,6,0
+642,six cent quarante-deux,six cents quarante-deux,six cents quarante-deux,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+643,six cent quarante-trois,six cents quarante-trois,six cents quarante-trois,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+644,six cent quarante-quatre,six cents quarante-quatre,six cents quarante-quatre,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+645,six cent quarante-cinq,six cents quarante-cinq,six cents quarante-cinq,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+646,six cent quarante-six,six cents quarante-six,six cents quarante-six,False,decimal,5,5,0,5,5,0,7,7,0,6,7,-1,6,6,0
+647,six cent quarante-sept,six cents quarante-sept,six cents quarante-sept,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+648,six cent quarante-huit,six cents quarante-huit,six cents quarante-huit,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+649,six cent quarante-neuf,six cents quarante-neuf,six cents quarante-neuf,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+650,six cent cinquante,six cents cinquante,six cents cinquante,False,decimal,4,4,0,5,5,0,5,5,0,5,6,-1,5,5,0
+651,six cent cinquante et un,six cents cinquante et un,six cents cinquante et un,False,decimal,6,6,0,7,7,0,7,7,0,7,8,-1,7,7,0
+652,six cent cinquante-deux,six cents cinquante-deux,six cents cinquante-deux,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+653,six cent cinquante-trois,six cents cinquante-trois,six cents cinquante-trois,False,decimal,7,7,0,8,8,0,8,8,0,9,10,-1,9,9,0
+654,six cent cinquante-quatre,six cents cinquante-quatre,six cents cinquante-quatre,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+655,six cent cinquante-cinq,six cents cinquante-cinq,six cents cinquante-cinq,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+656,six cent cinquante-six,six cents cinquante-six,six cents cinquante-six,False,decimal,5,5,0,6,6,0,7,7,0,7,8,-1,7,7,0
+657,six cent cinquante-sept,six cents cinquante-sept,six cents cinquante-sept,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+658,six cent cinquante-huit,six cents cinquante-huit,six cents cinquante-huit,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+659,six cent cinquante-neuf,six cents cinquante-neuf,six cents cinquante-neuf,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+660,six cent soixante,six cents soixante,six cents soixante,False,decimal,5,5,0,5,5,0,5,5,0,5,6,-1,5,5,0
+661,six cent soixante et un,six cents soixante et un,six cents soixante et un,False,decimal,7,7,0,7,7,0,7,7,0,7,8,-1,7,7,0
+662,six cent soixante-deux,six cents soixante-deux,six cents soixante-deux,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+663,six cent soixante-trois,six cents soixante-trois,six cents soixante-trois,False,decimal,8,8,0,8,8,0,8,8,0,9,10,-1,9,9,0
+664,six cent soixante-quatre,six cents soixante-quatre,six cents soixante-quatre,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+665,six cent soixante-cinq,six cents soixante-cinq,six cents soixante-cinq,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+666,six cent soixante-six,six cents soixante-six,six cents soixante-six,False,decimal,6,6,0,6,6,0,7,7,0,7,8,-1,7,7,0
+667,six cent soixante-sept,six cents soixante-sept,six cents soixante-sept,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+668,six cent soixante-huit,six cents soixante-huit,six cents soixante-huit,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+669,six cent soixante-neuf,six cents soixante-neuf,six cents soixante-neuf,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+670,six cent soixante-dix,six cents septante,six cents septante,False,decimal,7,4,3,7,4,3,8,5,3,8,5,3,8,4,4
+671,six cent soixante et onze,six cents septante et un,six cents septante et un,False,decimal,7,6,1,7,6,1,8,7,1,8,7,1,8,6,2
+672,six cent soixante-douze,six cents septante-deux,six cents septante-deux,False,decimal,8,6,2,8,6,2,9,8,1,9,8,1,9,7,2
+673,six cent soixante-treize,six cents septante-trois,six cents septante-trois,False,decimal,8,7,1,8,7,1,8,8,0,8,9,-1,8,8,0
+674,six cent soixante-quatorze,six cents septante-quatre,six cents septante-quatre,False,decimal,8,6,2,8,6,2,9,8,1,9,8,1,9,7,2
+675,six cent soixante-quinze,six cents septante-cinq,six cents septante-cinq,False,decimal,8,6,2,8,6,2,8,8,0,8,8,0,8,7,1
+676,six cent soixante-seize,six cents septante-six,six cents septante-six,False,decimal,7,5,2,7,5,2,8,7,1,8,7,1,8,6,2
+677,six cent soixante-dix-sept,six cents septante-sept,six cents septante-sept,False,decimal,9,6,3,9,6,3,11,8,3,11,8,3,11,7,4
+678,six cent soixante-dix-huit,six cents septante-huit,six cents septante-huit,False,decimal,9,6,3,9,6,3,11,8,3,11,8,3,11,7,4
+679,six cent soixante-dix-neuf,six cents septante-neuf,six cents septante-neuf,False,decimal,9,6,3,9,6,3,11,8,3,11,8,3,11,7,4
+680,six cent quatre-vingts,six cents huitante,six cents quatre-vingt,False,decimal,6,4,2,6,5,1,7,5,2,6,5,1,6,5,1
+681,six cent quatre-vingt-un,six cents huitante et un,six cents quatre-vingt et un,False,decimal,7,6,1,7,7,0,9,7,2,8,7,1,8,7,1
+682,six cent quatre-vingt-deux,six cents huitante-deux,six cents quatre-vingt-deux,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+683,six cent quatre-vingt-trois,six cents huitante-trois,six cents quatre-vingt-trois,False,decimal,9,7,2,9,8,1,10,8,2,10,9,1,10,9,1
+684,six cent quatre-vingt-quatre,six cents huitante-quatre,six cents quatre-vingt-quatre,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+685,six cent quatre-vingt-cinq,six cents huitante-cinq,six cents quatre-vingt-cinq,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+686,six cent quatre-vingt-six,six cents huitante-six,six cents quatre-vingt-six,False,decimal,7,5,2,7,6,1,9,7,2,8,7,1,8,7,1
+687,six cent quatre-vingt-sept,six cents huitante-sept,six cents quatre-vingt-sept,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+688,six cent quatre-vingt-huit,six cents huitante-huit,six cents quatre-vingt-huit,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+689,six cent quatre-vingt-neuf,six cents huitante-neuf,six cents quatre-vingt-neuf,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+690,six cent quatre-vingt-dix,six cents nonante,six cents nonante,False,decimal,8,4,4,8,4,4,10,4,6,9,5,4,9,4,5
+691,six cent quatre-vingt-onze,six cents nonante et un,six cents nonante et un,False,decimal,8,6,2,8,6,2,10,6,4,9,7,2,9,6,3
+692,six cent quatre-vingt-douze,six cents nonante-deux,six cents nonante-deux,False,decimal,9,6,3,9,6,3,11,7,4,10,8,2,10,7,3
+693,six cent quatre-vingt-treize,six cents nonante-trois,six cents nonante-trois,False,decimal,9,7,2,9,7,2,10,7,3,9,9,0,9,8,1
+694,six cent quatre-vingt-quatorze,six cents nonante-quatre,six cents nonante-quatre,False,decimal,9,6,3,9,6,3,11,7,4,10,8,2,10,7,3
+695,six cent quatre-vingt-quinze,six cents nonante-cinq,six cents nonante-cinq,False,decimal,9,6,3,9,6,3,10,7,3,9,8,1,9,7,2
+696,six cent quatre-vingt-seize,six cents nonante-six,six cents nonante-six,False,decimal,8,5,3,8,5,3,10,6,4,9,7,2,9,6,3
+697,six cent quatre-vingt-dix-sept,six cents nonante-sept,six cents nonante-sept,False,decimal,10,6,4,10,6,4,13,7,6,12,8,4,12,7,5
+698,six cent quatre-vingt-dix-huit,six cents nonante-huit,six cents nonante-huit,False,decimal,10,6,4,10,6,4,13,7,6,12,8,4,12,7,5
+699,six cent quatre-vingt-dix-neuf,six cents nonante-neuf,six cents nonante-neuf,False,decimal,10,6,4,10,6,4,13,7,6,12,8,4,12,7,5
+700,sept cents,sept cents,sept cents,False,decimal,2,2,0,3,3,0,3,3,0,3,3,0,2,2,0
+701,sept cent un,sept cents un,sept cents un,False,decimal,3,3,0,4,4,0,4,4,0,3,4,-1,3,3,0
+702,sept cent deux,sept cents deux,sept cents deux,False,decimal,3,3,0,4,4,0,5,5,0,3,4,-1,3,3,0
+703,sept cent trois,sept cents trois,sept cents trois,False,decimal,3,3,0,4,4,0,5,5,0,3,4,-1,3,3,0
+704,sept cent quatre,sept cents quatre,sept cents quatre,False,decimal,3,3,0,4,4,0,5,5,0,3,4,-1,3,3,0
+705,sept cent cinq,sept cents cinq,sept cents cinq,False,decimal,3,3,0,5,5,0,6,6,0,3,4,-1,3,3,0
+706,sept cent six,sept cents six,sept cents six,False,decimal,3,3,0,4,4,0,4,4,0,3,4,-1,3,3,0
+707,sept cent sept,sept cents sept,sept cents sept,False,decimal,3,3,0,4,4,0,5,5,0,3,4,-1,3,3,0
+708,sept cent huit,sept cents huit,sept cents huit,False,decimal,3,3,0,5,5,0,5,5,0,3,4,-1,4,4,0
+709,sept cent neuf,sept cents neuf,sept cents neuf,False,decimal,3,3,0,5,5,0,5,5,0,4,5,-1,4,4,0
+710,sept cent dix,sept cents dix,sept cents dix,False,decimal,3,3,0,5,5,0,5,5,0,3,4,-1,4,4,0
+711,sept cent onze,sept cents onze,sept cents onze,False,decimal,3,3,0,4,4,0,5,5,0,4,5,-1,4,4,0
+712,sept cent douze,sept cents douze,sept cents douze,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+713,sept cent treize,sept cents treize,sept cents treize,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,4,4,0
+714,sept cent quatorze,sept cents quatorze,sept cents quatorze,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+715,sept cent quinze,sept cents quinze,sept cents quinze,False,decimal,3,3,0,6,6,0,6,6,0,5,6,-1,5,5,0
+716,sept cent seize,sept cents seize,sept cents seize,False,decimal,3,3,0,4,4,0,4,4,0,4,5,-1,4,4,0
+717,sept cent dix-sept,sept cents dix-sept,sept cents dix-sept,False,decimal,5,5,0,7,7,0,8,8,0,6,7,-1,7,7,0
+718,sept cent dix-huit,sept cents dix-huit,sept cents dix-huit,False,decimal,5,5,0,7,7,0,8,8,0,6,7,-1,7,7,0
+719,sept cent dix-neuf,sept cents dix-neuf,sept cents dix-neuf,False,decimal,5,5,0,7,7,0,8,8,0,6,7,-1,7,7,0
+720,sept cent vingt,sept cents vingt,sept cents vingt,False,decimal,3,3,0,5,5,0,6,6,0,4,5,-1,5,5,0
+721,sept cent vingt et un,sept cents vingt et un,sept cents vingt et un,False,decimal,5,5,0,7,7,0,8,8,0,6,7,-1,7,7,0
+722,sept cent vingt-deux,sept cents vingt-deux,sept cents vingt-deux,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+723,sept cent vingt-trois,sept cents vingt-trois,sept cents vingt-trois,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,9,9,0
+724,sept cent vingt-quatre,sept cents vingt-quatre,sept cents vingt-quatre,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+725,sept cent vingt-cinq,sept cents vingt-cinq,sept cents vingt-cinq,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+726,sept cent vingt-six,sept cents vingt-six,sept cents vingt-six,False,decimal,4,4,0,6,6,0,8,8,0,6,7,-1,7,7,0
+727,sept cent vingt-sept,sept cents vingt-sept,sept cents vingt-sept,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+728,sept cent vingt-huit,sept cents vingt-huit,sept cents vingt-huit,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+729,sept cent vingt-neuf,sept cents vingt-neuf,sept cents vingt-neuf,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,8,8,0
+730,sept cent trente,sept cents trente,sept cents trente,False,decimal,3,3,0,5,5,0,6,6,0,4,5,-1,4,4,0
+731,sept cent trente et un,sept cents trente et un,sept cents trente et un,False,decimal,5,5,0,7,7,0,8,8,0,6,7,-1,6,6,0
+732,sept cent trente-deux,sept cents trente-deux,sept cents trente-deux,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+733,sept cent trente-trois,sept cents trente-trois,sept cents trente-trois,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+734,sept cent trente-quatre,sept cents trente-quatre,sept cents trente-quatre,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+735,sept cent trente-cinq,sept cents trente-cinq,sept cents trente-cinq,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+736,sept cent trente-six,sept cents trente-six,sept cents trente-six,False,decimal,4,4,0,6,6,0,8,8,0,6,7,-1,6,6,0
+737,sept cent trente-sept,sept cents trente-sept,sept cents trente-sept,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+738,sept cent trente-huit,sept cents trente-huit,sept cents trente-huit,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+739,sept cent trente-neuf,sept cents trente-neuf,sept cents trente-neuf,False,decimal,5,5,0,7,7,0,9,9,0,7,8,-1,7,7,0
+740,sept cent quarante,sept cents quarante,sept cents quarante,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+741,sept cent quarante et un,sept cents quarante et un,sept cents quarante et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,6,6,0
+742,sept cent quarante-deux,sept cents quarante-deux,sept cents quarante-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+743,sept cent quarante-trois,sept cents quarante-trois,sept cents quarante-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+744,sept cent quarante-quatre,sept cents quarante-quatre,sept cents quarante-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+745,sept cent quarante-cinq,sept cents quarante-cinq,sept cents quarante-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+746,sept cent quarante-six,sept cents quarante-six,sept cents quarante-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,6,6,0
+747,sept cent quarante-sept,sept cents quarante-sept,sept cents quarante-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+748,sept cent quarante-huit,sept cents quarante-huit,sept cents quarante-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+749,sept cent quarante-neuf,sept cents quarante-neuf,sept cents quarante-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,7,7,0
+750,sept cent cinquante,sept cents cinquante,sept cents cinquante,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,5,5,0
+751,sept cent cinquante et un,sept cents cinquante et un,sept cents cinquante et un,False,decimal,6,6,0,8,8,0,8,8,0,7,8,-1,7,7,0
+752,sept cent cinquante-deux,sept cents cinquante-deux,sept cents cinquante-deux,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+753,sept cent cinquante-trois,sept cents cinquante-trois,sept cents cinquante-trois,False,decimal,7,7,0,9,9,0,9,9,0,9,10,-1,9,9,0
+754,sept cent cinquante-quatre,sept cents cinquante-quatre,sept cents cinquante-quatre,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+755,sept cent cinquante-cinq,sept cents cinquante-cinq,sept cents cinquante-cinq,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+756,sept cent cinquante-six,sept cents cinquante-six,sept cents cinquante-six,False,decimal,5,5,0,7,7,0,8,8,0,7,8,-1,7,7,0
+757,sept cent cinquante-sept,sept cents cinquante-sept,sept cents cinquante-sept,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+758,sept cent cinquante-huit,sept cents cinquante-huit,sept cents cinquante-huit,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+759,sept cent cinquante-neuf,sept cents cinquante-neuf,sept cents cinquante-neuf,False,decimal,6,6,0,8,8,0,9,9,0,8,9,-1,8,8,0
+760,sept cent soixante,sept cents soixante,sept cents soixante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,5,5,0
+761,sept cent soixante et un,sept cents soixante et un,sept cents soixante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,7,7,0
+762,sept cent soixante-deux,sept cents soixante-deux,sept cents soixante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+763,sept cent soixante-trois,sept cents soixante-trois,sept cents soixante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,9,9,0
+764,sept cent soixante-quatre,sept cents soixante-quatre,sept cents soixante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+765,sept cent soixante-cinq,sept cents soixante-cinq,sept cents soixante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+766,sept cent soixante-six,sept cents soixante-six,sept cents soixante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+767,sept cent soixante-sept,sept cents soixante-sept,sept cents soixante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+768,sept cent soixante-huit,sept cents soixante-huit,sept cents soixante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+769,sept cent soixante-neuf,sept cents soixante-neuf,sept cents soixante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,8,8,0
+770,sept cent soixante-dix,sept cents septante,sept cents septante,False,decimal,7,4,3,8,5,3,9,6,3,8,5,3,8,4,4
+771,sept cent soixante et onze,sept cents septante et un,sept cents septante et un,False,decimal,7,6,1,8,7,1,9,8,1,8,7,1,8,6,2
+772,sept cent soixante-douze,sept cents septante-deux,sept cents septante-deux,False,decimal,8,6,2,9,7,2,10,9,1,9,8,1,9,7,2
+773,sept cent soixante-treize,sept cents septante-trois,sept cents septante-trois,False,decimal,8,7,1,9,8,1,9,9,0,8,9,-1,8,8,0
+774,sept cent soixante-quatorze,sept cents septante-quatre,sept cents septante-quatre,False,decimal,8,6,2,9,7,2,10,9,1,9,8,1,9,7,2
+775,sept cent soixante-quinze,sept cents septante-cinq,sept cents septante-cinq,False,decimal,8,6,2,9,7,2,9,9,0,8,8,0,8,7,1
+776,sept cent soixante-seize,sept cents septante-six,sept cents septante-six,False,decimal,7,5,2,8,6,2,9,8,1,8,7,1,8,6,2
+777,sept cent soixante-dix-sept,sept cents septante-sept,sept cents septante-sept,False,decimal,9,6,3,10,7,3,12,9,3,11,8,3,11,7,4
+778,sept cent soixante-dix-huit,sept cents septante-huit,sept cents septante-huit,False,decimal,9,6,3,10,7,3,12,9,3,11,8,3,11,7,4
+779,sept cent soixante-dix-neuf,sept cents septante-neuf,sept cents septante-neuf,False,decimal,9,6,3,10,7,3,12,9,3,11,8,3,11,7,4
+780,sept cent quatre-vingts,sept cents huitante,sept cents quatre-vingt,False,decimal,6,4,2,7,6,1,8,6,2,6,5,1,6,5,1
+781,sept cent quatre-vingt-un,sept cents huitante et un,sept cents quatre-vingt et un,False,decimal,7,6,1,8,8,0,10,8,2,8,7,1,8,7,1
+782,sept cent quatre-vingt-deux,sept cents huitante-deux,sept cents quatre-vingt-deux,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+783,sept cent quatre-vingt-trois,sept cents huitante-trois,sept cents quatre-vingt-trois,False,decimal,9,7,2,10,9,1,11,9,2,10,9,1,10,9,1
+784,sept cent quatre-vingt-quatre,sept cents huitante-quatre,sept cents quatre-vingt-quatre,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+785,sept cent quatre-vingt-cinq,sept cents huitante-cinq,sept cents quatre-vingt-cinq,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+786,sept cent quatre-vingt-six,sept cents huitante-six,sept cents quatre-vingt-six,False,decimal,7,5,2,8,7,1,10,8,2,8,7,1,8,7,1
+787,sept cent quatre-vingt-sept,sept cents huitante-sept,sept cents quatre-vingt-sept,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+788,sept cent quatre-vingt-huit,sept cents huitante-huit,sept cents quatre-vingt-huit,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+789,sept cent quatre-vingt-neuf,sept cents huitante-neuf,sept cents quatre-vingt-neuf,False,decimal,8,6,2,9,8,1,11,9,2,9,8,1,9,8,1
+790,sept cent quatre-vingt-dix,sept cents nonante,sept cents nonante,False,decimal,8,4,4,9,5,4,11,5,6,9,5,4,9,4,5
+791,sept cent quatre-vingt-onze,sept cents nonante et un,sept cents nonante et un,False,decimal,8,6,2,9,7,2,11,7,4,9,7,2,9,6,3
+792,sept cent quatre-vingt-douze,sept cents nonante-deux,sept cents nonante-deux,False,decimal,9,6,3,10,7,3,12,8,4,10,8,2,10,7,3
+793,sept cent quatre-vingt-treize,sept cents nonante-trois,sept cents nonante-trois,False,decimal,9,7,2,10,8,2,11,8,3,9,9,0,9,8,1
+794,sept cent quatre-vingt-quatorze,sept cents nonante-quatre,sept cents nonante-quatre,False,decimal,9,6,3,10,7,3,12,8,4,10,8,2,10,7,3
+795,sept cent quatre-vingt-quinze,sept cents nonante-cinq,sept cents nonante-cinq,False,decimal,9,6,3,10,7,3,11,8,3,9,8,1,9,7,2
+796,sept cent quatre-vingt-seize,sept cents nonante-six,sept cents nonante-six,False,decimal,8,5,3,9,6,3,11,7,4,9,7,2,9,6,3
+797,sept cent quatre-vingt-dix-sept,sept cents nonante-sept,sept cents nonante-sept,False,decimal,10,6,4,11,7,4,14,8,6,12,8,4,12,7,5
+798,sept cent quatre-vingt-dix-huit,sept cents nonante-huit,sept cents nonante-huit,False,decimal,10,6,4,11,7,4,14,8,6,12,8,4,12,7,5
+799,sept cent quatre-vingt-dix-neuf,sept cents nonante-neuf,sept cents nonante-neuf,False,decimal,10,6,4,11,7,4,14,8,6,12,8,4,12,7,5
+800,huit cents,huit cents,huit cents,False,decimal,3,3,0,3,3,0,3,3,0,3,3,0,3,3,0
+801,huit cent un,huit cents un,huit cents un,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,4,4,0
+802,huit cent deux,huit cents deux,huit cents deux,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,4,4,0
+803,huit cent trois,huit cents trois,huit cents trois,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,4,4,0
+804,huit cent quatre,huit cents quatre,huit cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,4,4,0
+805,huit cent cinq,huit cents cinq,huit cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,3,4,-1,4,4,0
+806,huit cent six,huit cents six,huit cents six,False,decimal,4,4,0,4,4,0,4,4,0,3,4,-1,4,4,0
+807,huit cent sept,huit cents sept,huit cents sept,False,decimal,4,4,0,4,4,0,5,5,0,3,4,-1,4,4,0
+808,huit cent huit,huit cents huit,huit cents huit,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,5,5,0
+809,huit cent neuf,huit cents neuf,huit cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,5,5,0
+810,huit cent dix,huit cents dix,huit cents dix,False,decimal,4,4,0,5,5,0,5,5,0,3,4,-1,5,5,0
+811,huit cent onze,huit cents onze,huit cents onze,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,5,5,0
+812,huit cent douze,huit cents douze,huit cents douze,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,5,5,0
+813,huit cent treize,huit cents treize,huit cents treize,False,decimal,5,5,0,5,5,0,5,5,0,4,5,-1,5,5,0
+814,huit cent quatorze,huit cents quatorze,huit cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,6,6,0
+815,huit cent quinze,huit cents quinze,huit cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,5,6,-1,6,6,0
+816,huit cent seize,huit cents seize,huit cents seize,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,5,5,0
+817,huit cent dix-sept,huit cents dix-sept,huit cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,8,8,0
+818,huit cent dix-huit,huit cents dix-huit,huit cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,8,8,0
+819,huit cent dix-neuf,huit cents dix-neuf,huit cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,8,8,0
+820,huit cent vingt,huit cents vingt,huit cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,6,6,0
+821,huit cent vingt et un,huit cents vingt et un,huit cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,8,8,0
+822,huit cent vingt-deux,huit cents vingt-deux,huit cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+823,huit cent vingt-trois,huit cents vingt-trois,huit cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,10,10,0
+824,huit cent vingt-quatre,huit cents vingt-quatre,huit cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+825,huit cent vingt-cinq,huit cents vingt-cinq,huit cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+826,huit cent vingt-six,huit cents vingt-six,huit cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,8,8,0
+827,huit cent vingt-sept,huit cents vingt-sept,huit cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+828,huit cent vingt-huit,huit cents vingt-huit,huit cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+829,huit cent vingt-neuf,huit cents vingt-neuf,huit cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,9,9,0
+830,huit cent trente,huit cents trente,huit cents trente,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,5,5,0
+831,huit cent trente et un,huit cents trente et un,huit cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,6,7,-1,7,7,0
+832,huit cent trente-deux,huit cents trente-deux,huit cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+833,huit cent trente-trois,huit cents trente-trois,huit cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+834,huit cent trente-quatre,huit cents trente-quatre,huit cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+835,huit cent trente-cinq,huit cents trente-cinq,huit cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+836,huit cent trente-six,huit cents trente-six,huit cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,6,7,-1,7,7,0
+837,huit cent trente-sept,huit cents trente-sept,huit cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+838,huit cent trente-huit,huit cents trente-huit,huit cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+839,huit cent trente-neuf,huit cents trente-neuf,huit cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,7,8,-1,8,8,0
+840,huit cent quarante,huit cents quarante,huit cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,4,5,-1,5,5,0
+841,huit cent quarante et un,huit cents quarante et un,huit cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,6,7,-1,7,7,0
+842,huit cent quarante-deux,huit cents quarante-deux,huit cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+843,huit cent quarante-trois,huit cents quarante-trois,huit cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+844,huit cent quarante-quatre,huit cents quarante-quatre,huit cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+845,huit cent quarante-cinq,huit cents quarante-cinq,huit cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+846,huit cent quarante-six,huit cents quarante-six,huit cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,6,7,-1,7,7,0
+847,huit cent quarante-sept,huit cents quarante-sept,huit cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+848,huit cent quarante-huit,huit cents quarante-huit,huit cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+849,huit cent quarante-neuf,huit cents quarante-neuf,huit cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,7,8,-1,8,8,0
+850,huit cent cinquante,huit cents cinquante,huit cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,5,6,-1,6,6,0
+851,huit cent cinquante et un,huit cents cinquante et un,huit cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,7,8,-1,8,8,0
+852,huit cent cinquante-deux,huit cents cinquante-deux,huit cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+853,huit cent cinquante-trois,huit cents cinquante-trois,huit cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,9,10,-1,10,10,0
+854,huit cent cinquante-quatre,huit cents cinquante-quatre,huit cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+855,huit cent cinquante-cinq,huit cents cinquante-cinq,huit cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+856,huit cent cinquante-six,huit cents cinquante-six,huit cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,8,8,0
+857,huit cent cinquante-sept,huit cents cinquante-sept,huit cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+858,huit cent cinquante-huit,huit cents cinquante-huit,huit cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+859,huit cent cinquante-neuf,huit cents cinquante-neuf,huit cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,8,9,-1,9,9,0
+860,huit cent soixante,huit cents soixante,huit cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,5,6,-1,6,6,0
+861,huit cent soixante et un,huit cents soixante et un,huit cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,7,8,-1,8,8,0
+862,huit cent soixante-deux,huit cents soixante-deux,huit cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+863,huit cent soixante-trois,huit cents soixante-trois,huit cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,9,10,-1,10,10,0
+864,huit cent soixante-quatre,huit cents soixante-quatre,huit cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+865,huit cent soixante-cinq,huit cents soixante-cinq,huit cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+866,huit cent soixante-six,huit cents soixante-six,huit cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,8,8,0
+867,huit cent soixante-sept,huit cents soixante-sept,huit cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+868,huit cent soixante-huit,huit cents soixante-huit,huit cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+869,huit cent soixante-neuf,huit cents soixante-neuf,huit cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,8,9,-1,9,9,0
+870,huit cent soixante-dix,huit cents septante,huit cents septante,False,decimal,8,5,3,8,5,3,9,6,3,8,5,3,9,5,4
+871,huit cent soixante et onze,huit cents septante et un,huit cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,8,7,1,9,7,2
+872,huit cent soixante-douze,huit cents septante-deux,huit cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,10,8,2
+873,huit cent soixante-treize,huit cents septante-trois,huit cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,8,9,-1,9,9,0
+874,huit cent soixante-quatorze,huit cents septante-quatre,huit cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,9,8,1,10,8,2
+875,huit cent soixante-quinze,huit cents septante-cinq,huit cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,8,8,0,9,8,1
+876,huit cent soixante-seize,huit cents septante-six,huit cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,8,7,1,9,7,2
+877,huit cent soixante-dix-sept,huit cents septante-sept,huit cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,12,8,4
+878,huit cent soixante-dix-huit,huit cents septante-huit,huit cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,12,8,4
+879,huit cent soixante-dix-neuf,huit cents septante-neuf,huit cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,11,8,3,12,8,4
+880,huit cent quatre-vingts,huit cents huitante,huit cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,6,5,1,7,6,1
+881,huit cent quatre-vingt-un,huit cents huitante et un,huit cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,8,7,1,9,8,1
+882,huit cent quatre-vingt-deux,huit cents huitante-deux,huit cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+883,huit cent quatre-vingt-trois,huit cents huitante-trois,huit cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,10,9,1,11,10,1
+884,huit cent quatre-vingt-quatre,huit cents huitante-quatre,huit cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+885,huit cent quatre-vingt-cinq,huit cents huitante-cinq,huit cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+886,huit cent quatre-vingt-six,huit cents huitante-six,huit cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,8,7,1,9,8,1
+887,huit cent quatre-vingt-sept,huit cents huitante-sept,huit cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+888,huit cent quatre-vingt-huit,huit cents huitante-huit,huit cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+889,huit cent quatre-vingt-neuf,huit cents huitante-neuf,huit cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,9,8,1,10,9,1
+890,huit cent quatre-vingt-dix,huit cents nonante,huit cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,9,5,4,10,5,5
+891,huit cent quatre-vingt-onze,huit cents nonante et un,huit cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,9,7,2,10,7,3
+892,huit cent quatre-vingt-douze,huit cents nonante-deux,huit cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,11,8,3
+893,huit cent quatre-vingt-treize,huit cents nonante-trois,huit cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,9,9,0,10,9,1
+894,huit cent quatre-vingt-quatorze,huit cents nonante-quatre,huit cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,10,8,2,11,8,3
+895,huit cent quatre-vingt-quinze,huit cents nonante-cinq,huit cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,9,8,1,10,8,2
+896,huit cent quatre-vingt-seize,huit cents nonante-six,huit cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,9,7,2,10,7,3
+897,huit cent quatre-vingt-dix-sept,huit cents nonante-sept,huit cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,13,8,5
+898,huit cent quatre-vingt-dix-huit,huit cents nonante-huit,huit cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,13,8,5
+899,huit cent quatre-vingt-dix-neuf,huit cents nonante-neuf,huit cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,12,8,4,13,8,5
+900,neuf cents,neuf cents,neuf cents,False,decimal,3,3,0,3,3,0,3,3,0,4,4,0,3,3,0
+901,neuf cent un,neuf cents un,neuf cents un,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+902,neuf cent deux,neuf cents deux,neuf cents deux,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+903,neuf cent trois,neuf cents trois,neuf cents trois,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+904,neuf cent quatre,neuf cents quatre,neuf cents quatre,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+905,neuf cent cinq,neuf cents cinq,neuf cents cinq,False,decimal,4,4,0,5,5,0,6,6,0,4,5,-1,4,4,0
+906,neuf cent six,neuf cents six,neuf cents six,False,decimal,4,4,0,4,4,0,4,4,0,4,5,-1,4,4,0
+907,neuf cent sept,neuf cents sept,neuf cents sept,False,decimal,4,4,0,4,4,0,5,5,0,4,5,-1,4,4,0
+908,neuf cent huit,neuf cents huit,neuf cents huit,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,5,5,0
+909,neuf cent neuf,neuf cents neuf,neuf cents neuf,False,decimal,4,4,0,5,5,0,5,5,0,5,6,-1,5,5,0
+910,neuf cent dix,neuf cents dix,neuf cents dix,False,decimal,4,4,0,5,5,0,5,5,0,4,5,-1,5,5,0
+911,neuf cent onze,neuf cents onze,neuf cents onze,False,decimal,4,4,0,4,4,0,5,5,0,5,6,-1,5,5,0
+912,neuf cent douze,neuf cents douze,neuf cents douze,False,decimal,5,5,0,5,5,0,5,5,0,5,6,-1,5,5,0
+913,neuf cent treize,neuf cents treize,neuf cents treize,False,decimal,5,5,0,5,5,0,5,5,0,5,6,-1,5,5,0
+914,neuf cent quatorze,neuf cents quatorze,neuf cents quatorze,False,decimal,6,6,0,6,6,0,6,6,0,6,7,-1,6,6,0
+915,neuf cent quinze,neuf cents quinze,neuf cents quinze,False,decimal,4,4,0,6,6,0,6,6,0,6,7,-1,6,6,0
+916,neuf cent seize,neuf cents seize,neuf cents seize,False,decimal,4,4,0,4,4,0,4,4,0,5,6,-1,5,5,0
+917,neuf cent dix-sept,neuf cents dix-sept,neuf cents dix-sept,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,8,8,0
+918,neuf cent dix-huit,neuf cents dix-huit,neuf cents dix-huit,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,8,8,0
+919,neuf cent dix-neuf,neuf cents dix-neuf,neuf cents dix-neuf,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,8,8,0
+920,neuf cent vingt,neuf cents vingt,neuf cents vingt,False,decimal,4,4,0,5,5,0,6,6,0,5,6,-1,6,6,0
+921,neuf cent vingt et un,neuf cents vingt et un,neuf cents vingt et un,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,8,8,0
+922,neuf cent vingt-deux,neuf cents vingt-deux,neuf cents vingt-deux,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+923,neuf cent vingt-trois,neuf cents vingt-trois,neuf cents vingt-trois,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,10,10,0
+924,neuf cent vingt-quatre,neuf cents vingt-quatre,neuf cents vingt-quatre,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+925,neuf cent vingt-cinq,neuf cents vingt-cinq,neuf cents vingt-cinq,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+926,neuf cent vingt-six,neuf cents vingt-six,neuf cents vingt-six,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,8,8,0
+927,neuf cent vingt-sept,neuf cents vingt-sept,neuf cents vingt-sept,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+928,neuf cent vingt-huit,neuf cents vingt-huit,neuf cents vingt-huit,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+929,neuf cent vingt-neuf,neuf cents vingt-neuf,neuf cents vingt-neuf,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,9,9,0
+930,neuf cent trente,neuf cents trente,neuf cents trente,False,decimal,4,4,0,5,5,0,6,6,0,5,6,-1,5,5,0
+931,neuf cent trente et un,neuf cents trente et un,neuf cents trente et un,False,decimal,6,6,0,7,7,0,8,8,0,7,8,-1,7,7,0
+932,neuf cent trente-deux,neuf cents trente-deux,neuf cents trente-deux,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+933,neuf cent trente-trois,neuf cents trente-trois,neuf cents trente-trois,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+934,neuf cent trente-quatre,neuf cents trente-quatre,neuf cents trente-quatre,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+935,neuf cent trente-cinq,neuf cents trente-cinq,neuf cents trente-cinq,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+936,neuf cent trente-six,neuf cents trente-six,neuf cents trente-six,False,decimal,5,5,0,6,6,0,8,8,0,7,8,-1,7,7,0
+937,neuf cent trente-sept,neuf cents trente-sept,neuf cents trente-sept,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+938,neuf cent trente-huit,neuf cents trente-huit,neuf cents trente-huit,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+939,neuf cent trente-neuf,neuf cents trente-neuf,neuf cents trente-neuf,False,decimal,6,6,0,7,7,0,9,9,0,8,9,-1,8,8,0
+940,neuf cent quarante,neuf cents quarante,neuf cents quarante,False,decimal,5,5,0,5,5,0,6,6,0,5,6,-1,5,5,0
+941,neuf cent quarante et un,neuf cents quarante et un,neuf cents quarante et un,False,decimal,7,7,0,7,7,0,8,8,0,7,8,-1,7,7,0
+942,neuf cent quarante-deux,neuf cents quarante-deux,neuf cents quarante-deux,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+943,neuf cent quarante-trois,neuf cents quarante-trois,neuf cents quarante-trois,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+944,neuf cent quarante-quatre,neuf cents quarante-quatre,neuf cents quarante-quatre,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+945,neuf cent quarante-cinq,neuf cents quarante-cinq,neuf cents quarante-cinq,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+946,neuf cent quarante-six,neuf cents quarante-six,neuf cents quarante-six,False,decimal,6,6,0,6,6,0,8,8,0,7,8,-1,7,7,0
+947,neuf cent quarante-sept,neuf cents quarante-sept,neuf cents quarante-sept,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+948,neuf cent quarante-huit,neuf cents quarante-huit,neuf cents quarante-huit,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+949,neuf cent quarante-neuf,neuf cents quarante-neuf,neuf cents quarante-neuf,False,decimal,7,7,0,7,7,0,9,9,0,8,9,-1,8,8,0
+950,neuf cent cinquante,neuf cents cinquante,neuf cents cinquante,False,decimal,5,5,0,6,6,0,6,6,0,6,7,-1,6,6,0
+951,neuf cent cinquante et un,neuf cents cinquante et un,neuf cents cinquante et un,False,decimal,7,7,0,8,8,0,8,8,0,8,9,-1,8,8,0
+952,neuf cent cinquante-deux,neuf cents cinquante-deux,neuf cents cinquante-deux,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+953,neuf cent cinquante-trois,neuf cents cinquante-trois,neuf cents cinquante-trois,False,decimal,8,8,0,9,9,0,9,9,0,10,11,-1,10,10,0
+954,neuf cent cinquante-quatre,neuf cents cinquante-quatre,neuf cents cinquante-quatre,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+955,neuf cent cinquante-cinq,neuf cents cinquante-cinq,neuf cents cinquante-cinq,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+956,neuf cent cinquante-six,neuf cents cinquante-six,neuf cents cinquante-six,False,decimal,6,6,0,7,7,0,8,8,0,8,9,-1,8,8,0
+957,neuf cent cinquante-sept,neuf cents cinquante-sept,neuf cents cinquante-sept,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+958,neuf cent cinquante-huit,neuf cents cinquante-huit,neuf cents cinquante-huit,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+959,neuf cent cinquante-neuf,neuf cents cinquante-neuf,neuf cents cinquante-neuf,False,decimal,7,7,0,8,8,0,9,9,0,9,10,-1,9,9,0
+960,neuf cent soixante,neuf cents soixante,neuf cents soixante,False,decimal,6,6,0,6,6,0,6,6,0,6,7,-1,6,6,0
+961,neuf cent soixante et un,neuf cents soixante et un,neuf cents soixante et un,False,decimal,8,8,0,8,8,0,8,8,0,8,9,-1,8,8,0
+962,neuf cent soixante-deux,neuf cents soixante-deux,neuf cents soixante-deux,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+963,neuf cent soixante-trois,neuf cents soixante-trois,neuf cents soixante-trois,False,decimal,9,9,0,9,9,0,9,9,0,10,11,-1,10,10,0
+964,neuf cent soixante-quatre,neuf cents soixante-quatre,neuf cents soixante-quatre,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+965,neuf cent soixante-cinq,neuf cents soixante-cinq,neuf cents soixante-cinq,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+966,neuf cent soixante-six,neuf cents soixante-six,neuf cents soixante-six,False,decimal,7,7,0,7,7,0,8,8,0,8,9,-1,8,8,0
+967,neuf cent soixante-sept,neuf cents soixante-sept,neuf cents soixante-sept,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+968,neuf cent soixante-huit,neuf cents soixante-huit,neuf cents soixante-huit,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+969,neuf cent soixante-neuf,neuf cents soixante-neuf,neuf cents soixante-neuf,False,decimal,8,8,0,8,8,0,9,9,0,9,10,-1,9,9,0
+970,neuf cent soixante-dix,neuf cents septante,neuf cents septante,False,decimal,8,5,3,8,5,3,9,6,3,9,6,3,9,5,4
+971,neuf cent soixante et onze,neuf cents septante et un,neuf cents septante et un,False,decimal,8,7,1,8,7,1,9,8,1,9,8,1,9,7,2
+972,neuf cent soixante-douze,neuf cents septante-deux,neuf cents septante-deux,False,decimal,9,7,2,9,7,2,10,9,1,10,9,1,10,8,2
+973,neuf cent soixante-treize,neuf cents septante-trois,neuf cents septante-trois,False,decimal,9,8,1,9,8,1,9,9,0,9,10,-1,9,9,0
+974,neuf cent soixante-quatorze,neuf cents septante-quatre,neuf cents septante-quatre,False,decimal,9,7,2,9,7,2,10,9,1,10,9,1,10,8,2
+975,neuf cent soixante-quinze,neuf cents septante-cinq,neuf cents septante-cinq,False,decimal,9,7,2,9,7,2,9,9,0,9,9,0,9,8,1
+976,neuf cent soixante-seize,neuf cents septante-six,neuf cents septante-six,False,decimal,8,6,2,8,6,2,9,8,1,9,8,1,9,7,2
+977,neuf cent soixante-dix-sept,neuf cents septante-sept,neuf cents septante-sept,False,decimal,10,7,3,10,7,3,12,9,3,12,9,3,12,8,4
+978,neuf cent soixante-dix-huit,neuf cents septante-huit,neuf cents septante-huit,False,decimal,10,7,3,10,7,3,12,9,3,12,9,3,12,8,4
+979,neuf cent soixante-dix-neuf,neuf cents septante-neuf,neuf cents septante-neuf,False,decimal,10,7,3,10,7,3,12,9,3,12,9,3,12,8,4
+980,neuf cent quatre-vingts,neuf cents huitante,neuf cents quatre-vingt,False,decimal,7,5,2,7,6,1,8,6,2,7,6,1,7,6,1
+981,neuf cent quatre-vingt-un,neuf cents huitante et un,neuf cents quatre-vingt et un,False,decimal,8,7,1,8,8,0,10,8,2,9,8,1,9,8,1
+982,neuf cent quatre-vingt-deux,neuf cents huitante-deux,neuf cents quatre-vingt-deux,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+983,neuf cent quatre-vingt-trois,neuf cents huitante-trois,neuf cents quatre-vingt-trois,False,decimal,10,8,2,10,9,1,11,9,2,11,10,1,11,10,1
+984,neuf cent quatre-vingt-quatre,neuf cents huitante-quatre,neuf cents quatre-vingt-quatre,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+985,neuf cent quatre-vingt-cinq,neuf cents huitante-cinq,neuf cents quatre-vingt-cinq,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+986,neuf cent quatre-vingt-six,neuf cents huitante-six,neuf cents quatre-vingt-six,False,decimal,8,6,2,8,7,1,10,8,2,9,8,1,9,8,1
+987,neuf cent quatre-vingt-sept,neuf cents huitante-sept,neuf cents quatre-vingt-sept,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+988,neuf cent quatre-vingt-huit,neuf cents huitante-huit,neuf cents quatre-vingt-huit,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+989,neuf cent quatre-vingt-neuf,neuf cents huitante-neuf,neuf cents quatre-vingt-neuf,False,decimal,9,7,2,9,8,1,11,9,2,10,9,1,10,9,1
+990,neuf cent quatre-vingt-dix,neuf cents nonante,neuf cents nonante,False,decimal,9,5,4,9,5,4,11,5,6,10,6,4,10,5,5
+991,neuf cent quatre-vingt-onze,neuf cents nonante et un,neuf cents nonante et un,False,decimal,9,7,2,9,7,2,11,7,4,10,8,2,10,7,3
+992,neuf cent quatre-vingt-douze,neuf cents nonante-deux,neuf cents nonante-deux,False,decimal,10,7,3,10,7,3,12,8,4,11,9,2,11,8,3
+993,neuf cent quatre-vingt-treize,neuf cents nonante-trois,neuf cents nonante-trois,False,decimal,10,8,2,10,8,2,11,8,3,10,10,0,10,9,1
+994,neuf cent quatre-vingt-quatorze,neuf cents nonante-quatre,neuf cents nonante-quatre,False,decimal,10,7,3,10,7,3,12,8,4,11,9,2,11,8,3
+995,neuf cent quatre-vingt-quinze,neuf cents nonante-cinq,neuf cents nonante-cinq,False,decimal,10,7,3,10,7,3,11,8,3,10,9,1,10,8,2
+996,neuf cent quatre-vingt-seize,neuf cents nonante-six,neuf cents nonante-six,False,decimal,9,6,3,9,6,3,11,7,4,10,8,2,10,7,3
+997,neuf cent quatre-vingt-dix-sept,neuf cents nonante-sept,neuf cents nonante-sept,False,decimal,11,7,4,11,7,4,14,8,6,13,9,4,13,8,5
+998,neuf cent quatre-vingt-dix-huit,neuf cents nonante-huit,neuf cents nonante-huit,False,decimal,11,7,4,11,7,4,14,8,6,13,9,4,13,8,5
+999,neuf cent quatre-vingt-dix-neuf,neuf cents nonante-neuf,neuf cents nonante-neuf,False,decimal,11,7,4,11,7,4,14,8,6,13,9,4,13,8,5
+1000,mille,mille,mille,False,decimal,2,2,0,2,2,0,2,2,0,2,2,0,2,2,0

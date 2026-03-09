@@ -1,0 +1,26 @@
+\section{Methodology}
+
+To isolate the effect of vigesimal structure on LLM performance, we conduct a comparative analysis of \standardfrench and \swissfrench numeral systems. \swissfrench serves as a highly controlled decimal baseline, sharing the same vocabulary and grammar as \standardfrench outside of the specific numbers 70, 80, and 90 (\textit{septante}, \textit{huitante}, and \textit{nonante}).
+
+\subsection{Experimental Setup}
+Our experiments utilize a custom dataset comprising 1,000 numerals (1--1,000) generated for both \standardfrench and \swissfrench. We evaluate three state-of-the-art language models: \gpt, \claude, and \llama. The evaluation is broken down into three primary experiments: tokenization analysis, number-to-digit decoding, and magnitude comparison.
+
+\subsection{Experiments}
+
+\para{Tokenization Analysis.}
+We compute the mean token count for numerals in the 70-99 range across five different tokenizers, including those used by \gpt, Llama 3, and \mistral. This measures the surface-level fragmentation caused by the structural complexity of vigesimal forms (e.g., \textit{quatre-vingt-dix-sept} vs.\ \textit{nonante-sept}). 
+
+\para{Number-to-Digit Decoding.}
+To test direct translation capabilities, we prompt the models zero-shot to translate spelled-out French numerals into Arabic digits. This isolates the basic ability of the model to map the linguistic form to its numeric value, measured by exact match accuracy.
+
+\para{Magnitude Comparison.}
+We prompt models to compare pairs of numerals and identify the larger one. We conduct three types of comparisons:
+\begin{enumerate}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item \standardfrench vs.\ \standardfrench (e.g., \textit{soixante-quinze} vs.\ \textit{quatre-vingt-cinq})
+    \item \swissfrench vs.\ \swissfrench (e.g., \textit{septante-cinq} vs.\ \textit{huitante-cinq})
+    \item Mixed System (\standardfrench vs.\ \swissfrench) (e.g., \textit{soixante-douze} vs.\ \textit{nonante-deux})
+\end{enumerate}
+This task tests whether the internal abstract representations of numbers are consistent and aligned regardless of the linguistic input format.
+
+\para{Mathification Intervention.}
+Following \citet{bhattacharya2025investigating}, we also test whether providing explicit mathematical decompositions (e.g., explaining that 80 = 4 $\times$ 20) improves magnitude comparison performance for \standardfrench numerals.

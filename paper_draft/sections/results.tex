@@ -1,0 +1,47 @@
+\section{Results}
+
+Our results highlight a stark contrast between surface-level decoding capabilities and deeper mathematical reasoning across the two dialects.
+
+\subsection{Tokenization Complexity}
+
+We first analyze the surface-level complexity of the vigesimal system by measuring token counts. As shown in \tabref{tab:tokenization}, all tested tokenizers exhibit a massive increase in token counts for the 70-99 range in \standardfrench compared to \swissfrench. \gpt experiences the highest relative fragmentation, requiring an average of 2.77 additional tokens per numeral. This confirms our hypothesis that vigesimal numerals are inherently more fragmented, forcing the model to aggregate meaning over a longer context window.
+
+\begin{table}[h]
+\centering
+\caption{Average token counts for numerals in the 70-99 range across different tokenizers. The vigesimal structure of \standardfrench induces significant fragmentation.}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Tokenizer} & \textbf{\standardfrench} & \textbf{\swissfrench} & \textbf{Difference} \\
+\midrule
+\gpt & 6.90 & 4.13 & +2.77 \\
+Llama 3 & 7.27 & 4.60 & +2.67 \\
+\mistral & 7.27 & 4.93 & +2.34 \\
+\bottomrule
+\end{tabular}
+\label{tab:tokenization}
+\end{table}
+
+\subsection{Decoding and Translation}
+
+Despite the extreme token fragmentation observed in \tabref{tab:tokenization}, modern models show no degradation in zero-shot number-to-digit translation. \gpt, \claude, and \llama achieve approximately 100\% accuracy in decoding both \standardfrench and \swissfrench numerals into Arabic digits. This suggests that the basic ``vigesimal tax'' identified in earlier models \citep{johnson2020probing} has been largely resolved for simple translation tasks. The models successfully map both linguistic surface forms to the correct numeric values independently.
+
+\subsection{Magnitude Comparison and the ``Standard Overestimation'' Bias}
+
+However, when testing internal abstract representation via magnitude comparison, significant reasoning gaps emerge. As shown in \tabref{tab:magnitude}, all models perform well when comparing numerals within the same system (\standardfrench vs.\ \standardfrench or \swissfrench vs.\ \swissfrench). Yet, performance degrades sharply in mixed comparisons. \claude and \llama both drop to \textbf{76\%} accuracy when forced to compare \standardfrench directly against \swissfrench.
+
+\begin{table}[h]
+\centering
+\caption{Magnitude comparison accuracy across systems. Models struggle significantly when comparing \standardfrench against \swissfrench, despite perfect within-system accuracy.}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Model} & \textbf{Std vs. Std} & \textbf{Swiss vs. Swiss} & \textbf{Mixed (Std vs. Swiss)} \\
+\midrule
+\gpt & \textbf{100\%} & \textbf{98\%} & \textbf{96\%} \\
+\claude & \textbf{100\%} & 94\% & 76\% \\
+\llama & 88\% & 88\% & 76\% \\
+\bottomrule
+\end{tabular}
+\label{tab:magnitude}
+\end{table}
+
+Further analysis of the errors reveals a systematic failure mode. In 100\% of its mixed-comparison failures, \claude claimed the \standardfrench number was larger than the \swissfrench number, even when its true numeric value was lower (e.g., claiming \textit{soixante-douze} (72) is larger than \textit{nonante-deux} (92)). We term this the \textbf{``Standard Overestimation'' bias}. This suggests that the model utilizes a flawed heuristic where longer textual representations or higher internal complexity is conflated with larger mathematical magnitude.

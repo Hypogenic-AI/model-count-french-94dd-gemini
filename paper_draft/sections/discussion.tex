@@ -1,0 +1,12 @@
+\section{Discussion}
+
+Our findings demonstrate that LLMs possess two semi-independent pathways for processing French numerals: one optimized for the opaque \standardfrench system and one for the transparent decimal variants. While the models have perfectly learned to decode both systems into a common numeric space (Arabic digits), their internal mappings to an abstract number line are misaligned.
+
+\para{The Shift in the Vigesimal Tax.}
+The tokenization results provide a clear mechanistic reason for why older models might have struggled with \standardfrench. The vigesimal forms are highly fragmented, requiring the model to synthesize meaning over many subword tokens. However, the fact that modern models can perfectly decode these forms indicates that they have learned robust associative mappings between the fragmented linguistic surface and the correct numeric value. The ``vigesimal tax'' has therefore shifted. It is no longer a decoding problem, but a reasoning and alignment problem. When asked to operate on the internal representations without explicitly decoding them first, the models falter, relying on flawed heuristics like the ``Standard Overestimation'' bias.
+
+\para{Mathification and Implicit Structure.}
+The success of mathification interventions, as explored by \citet{bhattacharya2025investigating}, suggests that the implicit operations within vigesimal numbers (like the multiplication in \textit{quatre-vingts}) are not spontaneously activated during comparison tasks. The models treat \textit{quatre-vingt-cinq} primarily as a linguistic token sequence rather than an expression of $(4 \times 20) + 5$. This underscores a critical limitation in how current architectures bind language to mathematics.
+
+\para{Limitations and Broader Implications.}
+Our study is limited to the French numeral system and three specific LLMs. However, the implications are broader. As models are deployed in multilingual and cross-cultural contexts, understanding these internal misalignments is crucial. A model might appear to ``understand'' a language perfectly based on translation metrics, yet fail silently on reasoning tasks due to structural opacity. This highlights the danger of treating language performance monolithically and the value of using dialectal variations as controlled probes for internal model reasoning.

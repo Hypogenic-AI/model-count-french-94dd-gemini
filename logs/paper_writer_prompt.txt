@@ -1,0 +1,460 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                         IMPORTANT: BEFORE YOU START
+════════════════════════════════════════════════════════════════════════════════
+
+Before writing any content, you MUST complete these steps:
+
+1. READ THE SKILL: Review the paper-writer skill at .gemini/skills/paper-writer/SKILL.md
+2. READ THE STYLE GUIDE: Study templates/paper_writing/lab_style_guide.md carefully
+3. REVIEW EXAMPLES: Browse paper_examples/ for formatting and language patterns:
+   - Look at sections/1.introduction.tex for language style
+   - Look at tables/*.tex for table formatting
+   - Look at commands/*.tex for macro usage
+4. VERIFY COMMAND TEMPLATES: Command templates (math.tex, general.tex, macros.tex) are pre-copied to paper_draft/commands/
+
+CRITICAL: Reference example papers for FORMATTING and LANGUAGE STYLE only.
+Do NOT copy content, phrasing, or narrative structure from the example papers.
+The examples are in a different research domain - focus only on presentation style.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# How LLMs Represent the French Counting System: A Comparative Study
+
+## Executive Summary
+This study investigates how Large Language Models (LLMs) represent and process the &#34;opaque&#34; vigesimal (base-20) counting system of Standard French (e.g., *soixante-dix* for 70, *quatre-vingts* for 80). By performing a comparative analysis with the more &#34;transparent&#34; decimal systems of Swiss and Belgian French (e.g., *septante*, *huitante*), we isolate the &#34;vigesimal tax&#34; in terms of tokenization complexity and magnitude reasoning.
+
+**Key Findings:**
+1.  **H2 (Tokenization Complexity) Confirmed**: Standard French numerals in the 70-99 range are represented by ~2.3-2.8x more tokens than their Swiss counterparts across all tested tokenizers (GPT-4o, Llama 3, Mistral).
+2.  **H1 (The Vigesimal Tax) Refined**: Modern SOTA models (GPT-4o, Claude 3.5 Sonnet) have mastered *decoding* French numerals into digits with ~100% accuracy, showing no direct &#34;tax&#34; on simple translation tasks.
+3.  **H3 (Magnitude Inconsistency) Confirmed**: Cross-system magnitude comparison (Standard vs. Swiss) reveals significant reasoning gaps. Claude 3.5 Sonnet and Llama 3.1 70b accuracy dropped to **76%** when comparing Standard and Swiss forms, while maintaining high accuracy within each system.
+4.  **Novel Bias Discovered**: Claude 3.5 Sonnet exhibits a consistent **&#34;Standard Overestimation&#34; bias**, incorrectly claiming that Standard French forms (e.g., *soixante-douze*, 72) are larger than Swiss forms with higher values (e.g., *nonante-deux*, 92).
+
+## 1. Goal
+The goal of this research was to map out how LLMs internally represent the counterintuitive French counting system. We hypothesized that the complexity of the vigesimal structure would manifest as increased tokenization fragmentation and reasoning errors in magnitude estimation.
+
+## 2. Methodology
+
+### Approach
+We used a custom dataset of 1,000 French numerals (1-1000) comparing Standard, Swiss, and Belgian variants. We tested three SOTA models: **GPT-4o**, **Claude 3.5 Sonnet**, and **Llama 3.1 70b** via the OpenRouter API.
+
+### Experiments
+1.  **Tokenization Analysis**: Mean token count comparison across five different tokenizers.
+2.  **Number-to-Digit Decoding**: Zero-shot translation of numeral words to Arabic digits.
+3.  **Magnitude Comparison**: Pairwise comparison of Standard vs. Standard, Swiss vs. Swiss, and Standard vs. Swiss (Mixed).
+4.  **Mathification Intervention**: Testing if providing explicit mathematical decompositions (e.g., 80 = 4 * 20) improves performance.
+
+## 3. Results
+
+### Tokenization Analysis
+All tokenizers showed a massive &#34;spike&#34; in token count for the 70-99 range in Standard French.
+
+| Tokenizer | Avg Tokens (Standard 70-99) | Avg Tokens (Swiss 70-99) | Difference |
+|-----------|-----------------------------|---------------------------|------------|
+| GPT-4o    | 6.90                        | 4.13                      | +2.77      |
+| Llama 3   | 7.27                        | 4.60                      | +2.67      |
+| Mistral   | 7.27                        | 4.93                      | +2.34      |
+
+### Magnitude Comparison Accuracy
+While models decoded both systems perfectly, they struggled to align them.
+
+| Model             | Std vs Std | Swiss vs Swiss | Mixed (Std vs Swiss) |
+|-------------------|------------|----------------|----------------------|
+| GPT-4o            | 100%       | 98%            | 96%                  |
+| Claude 3.5 Sonnet | 100%       | 94%            | **76%**              |
+| Llama 3.1 70b     | 88%        | 88%            | **76%**              |
+
+### The &#34;Standard Overestimation&#34; Bias (Claude 3.5 Sonnet)
+In 100% of its mixed-comparison failures, Claude 3.5 Sonnet claimed the Standard French number was larger than the Swiss number, even when the numeric value was lower. This suggests a potential heuristic where &#34;longer textual representation&#34; or &#34;vigesimal complexity&#34; is conflated with &#34;larger magnitude.&#34;
+
+## 4. Discussion &amp; Interpretation
+The findings suggest that LLMs have two semi-independent pathways for French numerals: one for the Standard system and one for the decimal variants. While they can translate both to digits perfectly, the internal mapping to an abstract number line is not perfectly aligned across systems. The tokenization results provide a clear mechanistic reason for why older models might have struggled: the vigesimal forms are highly fragmented, requiring more attention and processing steps.
+
+## 5. Conclusion
+LLMs represent the French counting system with high fidelity but inconsistent cross-dialectal alignment. The &#34;vigesimal tax&#34; has shifted from a *decoding* problem in older models to a *reasoning/alignment* problem in modern SOTA models.
+
+## 6. Next Steps
+- **Probing Internal States**: Analyze the residual stream of open models (like Llama 3) to see if Standard and Swiss forms activate different &#34;number circuits.&#34;
+- **Swiss French Fine-tuning**: Test if exposure to the more transparent Swiss system improves general mathematical reasoning in French.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Planning: How does the model count in French?
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+The French counting system is a classic example of linguistic &#34;opacity&#34; in numeral systems. While most modern Indo-European languages use a base-10 (decimal) system, Standard French retains vigesimal (base-20) elements for numbers 70-99 (e.g., *quatre-vingts* for 80, literally &#34;four twenties&#34;). This research matters because it probes the boundary between linguistic representation and mathematical reasoning in LLMs. If a model &#34;understands&#34; a number, is that understanding tied to the linguistic surface form or an abstract numeric value? The French system provides a unique stress test for this mapping.
+
+### Gap in Existing Work
+Existing work (Johnson et al., 2020) has shown that older models struggle with French numeral magnitude comparison. Recent work (Bhattacharya et al., 2025) has explored &#34;mathifying&#34; linguistic puzzles but hasn&#39;t deeply analyzed the *internal* representational difference between the vigesimal Standard French and the decimal Swiss/Belgian variants (e.g., *septante*, *huitante/octante*, *nonante*). Most studies treat &#34;French&#34; as a monolithic entity, ignoring these natural &#34;controlled experiments&#34; provided by regional variations.
+
+### Our Novel Contribution
+We will perform a systematic comparative analysis between **Standard French** (vigesimal) and **Swiss French** (decimal) numeral systems across multiple state-of-the-art LLMs. By using the same underlying language (French) but varying the numeral structure, we can isolate the &#34;vigesimal tax&#34; — the performance or representational cost associated with the more complex base-20 structure. We will also investigate **tokenization patterns** to see if the increased complexity of Standard French numerals (e.g., *quatre-vingt-dix-sept* vs. *nonante-sept*) leads to higher fragmentation and subsequent errors.
+
+### Experiment Justification
+- **Experiment 1: Number-to-Digit Translation (Decoding)**: Measures how accurately the model maps linguistic forms to numeric values. This is the most direct test of the &#34;vigesimal tax&#34;.
+- **Experiment 2: Magnitude Comparison**: Tests if the internal representation of a number (e.g., 75 vs. 85) is consistent regardless of the linguistic form (*soixante-quinze* vs. *quatre-vingt-cinq*).
+- **Experiment 3: Tokenization Analysis**: Investigates if the surface-level complexity (number of tokens) correlates with error rates, providing a mechanistic explanation for performance gaps.
+- **Experiment 4: &#34;Mathification&#34; Intervention**: Tests if prompting the model to explicitly decompose vigesimal forms (e.g., &#34;80 is 4 times 20&#34;) improves performance, as suggested by Bhattacharya et al. (2025).
+
+## Research Question
+How does the vigesimal structure of the Standard French counting system affect the accuracy and internal representation of numbers in LLMs compared to the more &#34;transparent&#34; decimal systems of Swiss and Belgian French?
+
+## Hypothesis Decomposition
+1.  **H1 (The Vigesimal Tax)**: LLMs will show significantly higher error rates in number-to-digit translation for Standard French numerals in the 70-99 range compared to Swiss French equivalents.
+2.  **H2 (Tokenization Complexity)**: Standard French numerals in the 70-99 range will be represented by more tokens than their Swiss/Belgian counterparts, and token count will positively correlate with error rate.
+3.  **H3 (Magnitude Inconsistency)**: Magnitude comparison will be less accurate for Standard French vigesimal forms than for decimal forms, even when controlling for numeric value.
+4.  **H4 (Mathification Benefit)**: Explicit mathematical decomposition will bridge the performance gap between Standard and Swiss French more effectively than simple few-shot prompting.
+
+## Proposed Methodology
+
+### Approach
+A comparative behavioral and tokenization analysis of SOTA LLMs (GPT-4o, Claude 3.5 Sonnet, Llama 3.1) using a custom dataset of Standard, Swiss, and Belgian French numerals (1-1000).
+
+### Experimental Steps
+1.  **Data Preparation**: Load and validate `datasets/french_numbers_1_1000.csv`.
+2.  **Tokenization Study**: Use the `transformers` library to count tokens for all numeral variants across different model tokenizers (GPT-4, Llama 3).
+3.  **Decoding Task**: Zero-shot and few-shot translation of French numeral words to Arabic digits. Focus on the 70-99 range.
+4.  **Comparison Task**: Prompt models to compare two numerals (e.g., &#34;Which is larger: soixante-quinze or septante-deux?&#34;) and analyze the success rate.
+5.  **Mathification Intervention**: Compare standard prompting with &#34;mathified&#34; prompting (explaining the vigesimal structure) for the 70-99 range.
+
+### Baselines
+- **English**: High-resource decimal baseline.
+- **Swiss French**: The primary &#34;controlled&#34; decimal baseline within the same language.
+- **Random Choice**: For comparison tasks.
+
+### Evaluation Metrics
+- **Accuracy**: For translation and comparison.
+- **Mean Absolute Error (MAE)**: For number-to-digit translation.
+- **Token Count**: Mean tokens per numeral range.
+- **Correlation (Pearson/Spearman)**: Between token count and error rate.
+
+### Statistical Analysis Plan
+- **T-tests/ANOVA**: To compare error rates between Standard and Swiss French.
+- **Regression**: To model error rate as a function of tokenization complexity and numeral system.
+
+## Timeline and Milestones
+- **M1 (Setup)**: Environment and data verification (1 hour).
+- **M2 (Implementation)**: Scripts for API calls and tokenization analysis (2 hours).
+- **M3 (Execution)**: Running all experiments (3 hours).
+- **M4 (Analysis)**: Statistical testing and visualization (1.5 hours).
+- **M5 (Documentation)**: Final report (1 hour).
+
+## Potential Challenges
+- **API Rate Limits**: Mitigate with caching and retries.
+- **Model Biases**: Models might be primarily trained on Standard French, potentially *over-performing* on it despite the complexity. This makes the comparison even more interesting.
+- **Tokenization Variability**: Different models use different tokenizers; we must analyze each model&#39;s specific tokenizer.
+
+## Success Criteria
+- Quantified &#34;vigesimal tax&#34; for Standard French across at least three SOTA models.
+- Statistical evidence (or lack thereof) linking tokenization complexity to error rates.
+- Validated &#34;mathification&#34; effect for the 70-99 range.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: How does the model count in French?
+
+## Research Area Overview
+The representation of numbers in Large Language Models (LLMs) is a growing field of study, particularly focusing on how compositional numeral systems are processed. The French counting system is notably &#34;opaque&#34; or counterintuitive compared to &#34;transparent&#34; systems like Japanese, primarily due to its partial vigesimal (base-20) structure for numbers 70-99. This research area investigates whether LLMs internally map these linguistic forms to their numeric values and how the complexity of the numeral system affects this mapping.
+
+## Key Papers
+
+### Paper 1: Probing for Multilingual Numerical Understanding in Transformer-Based Language Models
+- **Authors**: Devin Johnson, Denise Mak, Andrew Barker, Lexi Loessberg-Zahl
+- **Year**: 2020
+- **Source**: BlackboxNLP workshop at EMNLP 2020
+- **Key Contribution**: Introduces probing tasks (Grammaticality Judgment and Value Comparison) for numerical understanding in English, Japanese, Danish, and French.
+- **Methodology**: Used a Multilayer Perceptron (MLP) classifier on top of frozen pretrained embeddings (BERT, DistilBERT, XLM).
+- **Results**: Models are good at judging if a number word string is grammatical but poor at comparing values (magnitude).
+- **Relevance to Our Research**: Specifically identifies French as &#34;the worst&#34; in terms of transparency due to its vigesimal system. It provides a baseline for how older models (BERT-era) handled French numbers.
+
+### Paper 2: Investigating the interaction of linguistic and mathematical reasoning in language models using multilingual number puzzles
+- **Authors**: Antara Raaghavi Bhattacharya, Isabel Papadimitriou, Kathryn Davidson, David Alvarez-Melis
+- **Year**: 2025 (Recent ArXiv: 2506.13886)
+- **Source**: ArXiv / Recent Conference (NeurIPS 2024 context)
+- **Key Contribution**: Analyzes how LLMs solve linguistics puzzles involving complex numeral systems.
+- **Methodology**: &#34;Mathifies&#34; linguistics puzzles by making implicit operations (like the multiplication in vigesimal systems) explicit to see if it improves performance.
+- **Results**: SOTA models (OpenAI o1, DeepSeek-R1) struggle with implicit structure but succeed when mathematical operations are made explicit.
+- **Relevance to Our Research**: Directly addresses the &#34;implicit mathematical structure&#34; of numeral systems like French. It suggests that LLMs fail to automatically &#34;see&#34; the math behind words like `quatre-vingts` (4 * 20) without explicit cues.
+
+## Common Methodologies
+- **Probing**: Using linear or MLP classifiers on frozen embeddings to detect specific information (like magnitude).
+- **Zero-shot/Few-shot Prompting**: Testing SOTA models&#39; ability to solve number puzzles or translate between number names and digits.
+- **Mathification**: Converting linguistic number representations into explicit mathematical expressions to isolate the source of failure (linguistic vs. mathematical).
+
+## Standard Baselines
+- **Random/Majority Class**: For classification tasks.
+- **English performance**: Often used as a high-resource baseline.
+- **Japanese/Chinese performance**: Used as &#34;transparent&#34; or &#34;regular&#34; number system baselines.
+
+## Evaluation Metrics
+- **Accuracy**: For grammaticality and value comparison.
+- **Mean Absolute Error (MAE)**: For number estimation/decoding.
+- **Token Overlap**: Analyzing how tokenization (subwords) affects number representation.
+
+## Datasets in the Literature
+- **UKLO/IOL**: Linguistics Olympiad puzzles.
+- **num2words**: Python library used to generate spelled-out numbers.
+- **MGSM**: Multilingual Grade School Math.
+
+## Gaps and Opportunities
+- **Cross-Dialect Analysis**: Comparing Standard French (vigesimal) with Swiss/Belgian French (decimal) is a powerful way to isolate the effect of the vigesimal structure while keeping the core language (French) constant.
+- **Internal Mapping**: Probing the *residual stream* or *attention heads* for specific &#34;vigesimal&#34; vs &#34;decimal&#34; circuits.
+
+## Recommendations for Our Experiment
+- **Primary Dataset**: A comparative dataset of Standard French vs. Swiss French number names (1-100).
+- **Baseline**: Comparison with English (decimal) and Japanese (regular decimal).
+- **Approach**: Test if models (e.g., GPT-4o, Claude 3.5, Llama 3) have higher error rates or different tokenization patterns for 70-99 in Standard French compared to Swiss French.
+- **Hypothesis**: The vigesimal structure in Standard French induces specific failure modes in magnitude estimation that are absent in Swiss French for the same numeric values.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. AUTHOR
+   - Use this exact author line in the \author{} block: Ari Holtzman and NeuriCo
+
+3. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+4. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+5. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+6. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+7. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+8. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+9. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+10. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex using the EXACT preamble for NEURIPS:
+
+   \documentclass{article}
+   \usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+   \usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+   \usepackage{booktabs}  % REQUIRED: professional tables
+   \usepackage{graphicx}
+   \usepackage{amsmath,amssymb}
+
+   % Import command files
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+   % Use this bibliography style:
+   \bibliographystyle{plainnat}
+
+   \author{Ari Holtzman and NeuriCo}
+
+   - Use \input{sections/...} to include each section
+   - Use \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors
+
+════════════════════════════════════════════════════════════════════════════════
+                          LAB WRITING STYLE
+════════════════════════════════════════════════════════════════════════════════
+
+Follow these lab-specific conventions to match our paper style:
+
+1. LANGUAGE STYLE:
+   - Use active voice: "We propose", "We examine", "We focus on"
+   - Be direct and confident: "Our main question is...", "We hypothesize that..."
+   - State things clearly and simply - prefer plain language over jargon
+   - Use bold questions as paragraph organizers: {\bf what is X?}
+   - Include specific quantitative claims: "8.97% over baseline"
+   - Avoid fancy wording: "utilize" → "use", "facilitate" → "help"
+
+2. INTRODUCTION STRUCTURE:
+   - Engaging hook (get to the point quickly)
+   - Problem importance
+   - Gap identification
+   - Your approach with method figure reference
+   - Quantitative preview of results
+   - Contribution bullets (3-4 items, action verbs)
+
+3. CONTRIBUTION LISTS:
+   \begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+       \item We propose...
+       \item We conduct...
+       \item We complement...
+   \end{itemize}
+
+4. MODULAR COMMANDS STRUCTURE:
+   Command templates are pre-copied to paper_draft/commands/:
+   - math.tex: Math notation macros
+   - general.tex: Formatting macros
+   - macros.tex: Project-specific term definitions (customize this for your paper)
+
+   In main.tex, include:
+   \input{commands/math}
+   \input{commands/general}
+   \input{commands/macros}
+
+5. REFERENCE CONVENTIONS:
+   Use reference macros from math.tex:
+   - \figref{fig:name} for "figure 1" (lowercase, in-sentence)
+   - \Figref{fig:name} for "Figure 1" (capitalized, start of sentence)
+   - \secref{sec:name} for "section 2"
+
+6. TEXT FORMATTING:
+   - Use \para{Header text} for bold paragraph headers
+   - Define method/dataset names with \textsc and \xspace:
+     \newcommand{\methodname}{\textsc{MethodName}\xspace}
+
+7. TABLE FORMATTING:
+   - Use booktabs package (no vertical lines)
+   - Use \resizebox{\textwidth}{!}{...} for wide tables
+   - Use @{} to remove padding at table edges
+   - Use \cmidrule(lr){x-y} for sub-headers
+   - Use \textsc{} for dataset/method names in headers
+   - Bold best results with {\bf ...}
+
+8. FIGURE FORMATTING:
+   - Use 0.32\textwidth for 3-column subfigures
+   - Use 0.95\linewidth for full-width figures
+   - Use \input{figures/legend} for shared legends
+   - Write self-contained captions explaining key observations
+
+9. RESULTS PRESENTATION:
+   - Define \increase and \decrease for colored arrows (green up, red down)
+   - Bold best results in tables
+   - Report confidence intervals when available
+
+10. ALGORITHM STYLING:
+    - Use algpseudocode with [noend]
+    - Use \triangleright for comments
+
+11. HYPERLINKS (REQUIRED):
+    - Always use \usepackage[hidelinks]{hyperref} or with colored links
+    - All citations, section refs, figure refs, table refs must be clickable
+    - This is essential for reader navigation
+
+════════════════════════════════════════════════════════════════════════════════
+                          WORKFLOW: REVIEW AND REFLECT
+════════════════════════════════════════════════════════════════════════════════
+
+Before calling finish, you MUST complete these review steps:
+
+1. REVIEW RESOURCES (at the start):
+   - Read .gemini/skills/paper-writer/SKILL.md for detailed guidance
+   - Study templates/paper_writing/lab_style_guide.md for style conventions
+   - Browse paper_examples/ for formatting and language patterns
+
+2. SELF-REFLECTION (before finishing):
+   After writing all sections, review your work against these criteria:
+
+   LANGUAGE CHECK:
+   - [ ] Is the writing clear and jargon-free?
+   - [ ] Are claims specific with quantitative support?
+   - [ ] Is active voice used throughout?
+
+   FORMATTING CHECK:
+   - [ ] Does main.tex include \input{commands/math}, \input{commands/general}, \input{commands/macros}?
+   - [ ] Is hyperref package included for clickable references?
+   - [ ] Do tables use booktabs (no vertical lines)?
+   - [ ] Are best results bolded in tables?
+   - [ ] Are figures/tables properly captioned?
+
+   STRUCTURE CHECK:
+   - [ ] Does introduction follow: hook → importance → gap → approach → preview → contributions?
+   - [ ] Are contribution bullets specific with action verbs?
+   - [ ] Does the paper compile without errors?
+
+3. FIX ISSUES:
+   - Address any issues found in the self-reflection
+   - Re-compile and verify the PDF looks correct
+
+Only after completing this review should you consider the paper finished.
